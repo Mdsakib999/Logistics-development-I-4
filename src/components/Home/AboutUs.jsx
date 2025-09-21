@@ -5,7 +5,7 @@ import { FiAnchor } from "react-icons/fi";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-7xl mx-auto p-4">
+    <div className="max-w-7xl mx-auto p-4 py-10">
       <div className="flex justify-around items-center  w-full ">
         <div className="w-6/12 space-y-5">
           <Title>About us</Title>
@@ -26,10 +26,13 @@ const AboutUs = () => {
             backgroundImage: `url(https://i.ibb.co.com/dwtFQQSM/pexels-chanaka-906494.jpg)`,
           }}
         >
-          <div className="w-[130px] h-[140px] bg-white absolute bottom-4 left-3 ">
+          <div className="w-[130px] h-[150px] bg-white absolute bottom-4 left-3 rounded-lg">
+            <div className="w-10 h-10 bg-yellow-300 flex justify-center items-center rounded-full absolute -top-5 left-3 text-white">
+                <FiAnchor size={28} />
+            </div>
             <div className="flex flex-col items-center justify-center"> 
                 <h1 className="text-center text-3xl font-bold top-8 absolute">647+</h1>
-            <div className="w-[115px] h-[50px] bg-yellow-400 bottom-3 absolute">
+            <div className="w-[115px] h-[50px] bg-yellow-400 bottom-3 absolute rounded-md">
               <p className="text-white uppercase text-center">Awwards Winning</p>
             </div>
             </div>
