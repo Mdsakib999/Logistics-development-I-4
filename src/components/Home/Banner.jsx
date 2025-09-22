@@ -30,7 +30,7 @@ export default function Banner() {
           {/* Image */}
           <img
             className="w-[80px] h-[80px] rounded-md object-cover"
-            src="https://i.ibb.co.com/KpXYj7mF/2025.jpg"
+            src="https://i.ibb.co.com/xSvBxQsm/Image-2.png"
             alt="Client"
           />
 
