@@ -30,7 +30,7 @@ const AboutUs = () => {
         <div
           className="h-[250px] sm:h-[300px] md:h-[350px] lg:h-[380px] bg-cover bg-center w-full lg:w-4/12 rounded-2xl relative"
           style={{
-            backgroundImage: `url(https://i.ibb.co.com/dwtFQQSM/pexels-chanaka-906494.jpg)`,
+            backgroundImage: `url(https://i.ibb.co.com/RkKfDVB3/Frame-1000007304-1.png)`,
           }}
         >
           <div className="w-[110px] sm:w-[130px] h-[130px] sm:h-[150px] bg-white absolute bottom-10 left-6 rounded-lg">
