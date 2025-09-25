@@ -41,7 +41,7 @@ export default function Choose() {
           <img
             src="https://i.ibb.co.com/PZr9jDXv/wireframe-logistics-icons-1.png"
             alt="why choose us"
-            className="rounded-2xl w-[250px] sm:w-[300px] md:w-[350px] lg:w-[380px] h-auto"
+            className="rounded-2xl w-[250px] sm:w-[300px] md:w-[350px] lg:w-[380px] h-auto transition hover:scale-105 duration-1000"
           />
         </div>
       </div>
@@ -52,7 +52,7 @@ export default function Choose() {
           {features.map((item, index) => (
             <div
               key={index}
-              className="rounded-xl px-6 flex-co  gap-5 sm:gap-6 w-full border border-gray-300 py-10 mt-4 relative"
+              className="rounded-xl px-6 flex-co  gap-5 sm:gap-6 w-full border border-gray-300 py-10 mt-4 relative transition hover:scale-105 duration-800"
             >
               <div className="font-bold text-xl sm:text-2xl md:text-3xl absolute w-14 h-12 rounded-xl bg-black text-white -top-8 flex items-center justify-center">
                 {item.number}

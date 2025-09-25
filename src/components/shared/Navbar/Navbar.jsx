@@ -16,9 +16,11 @@ export default function Navbar() {
           setShowTopBar(entry.isIntersecting);
         });
       },
-      { threshold: 0.7 }
+      { threshold: 0.8 }
     );
+
     observer.observe(bannerEl);
+    
     return () => {
       if (bannerEl) observer.unobserve(bannerEl);
     };
@@ -26,24 +28,24 @@ export default function Navbar() {
 
   return (
     <div className="sticky top-0 z-50">
-      {/* Top bar → visible only when Banner is in viewport */}
-      {showTopBar && (
-        <div className="bg-white border-b-4 transition-all duration-500">
-          <nav className="max-w-7xl mx-auto p-4 flex justify-between items-center">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-[14px] sm:text-[16px]">
-              <span className="text-dark">EKSPRESS@MAIL.COM</span>
-              <span>+1 (555) 000-0000</span>
-            </div>
-            <button className="bg-yellow-400 text-black w-[120px] sm:w-[150px] h-[40px] sm:h-[44px] rounded hover:bg-yellow-500 text-[14px] sm:text-[16px]">
-              GET QUOTE
-            </button>
-          </nav>
-        </div>
-      )}
+      <div
+        className={`bg-white border-b-4 transition-all duration-500 overflow-hidden 
+        ${showTopBar ? "max-h-20 opacity-100" : "max-h-0 opacity-0"}`}
+      >
+        <nav className="max-w-7xl mx-auto p-4 flex justify-between items-center">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-[14px] sm:text-[16px]">
+            <span className="text-dark">EKSPRESS@MAIL.COM</span>
+            <span>+1 (555) 000-0000</span>
+          </div>
+          <button className="bg-yellow-400 text-black w-[120px] sm:w-[150px] h-[40px] sm:h-[44px] rounded hover:bg-yellow-500 text-[14px] sm:text-[16px]">
+            GET QUOTE
+          </button>
+        </nav>
+      </div>
 
       {/* Main nav */}
       <div className="bg-black relative z-50">
-        <nav className="max-w-7xl mx-auto text-white p-4 flex justify-between items-center h-[94px] relative">
+        <nav className="max-w-7xl mx-auto text-white p-4 -mt-1  flex justify-between items-center h-[94px] relative">
           {/* Logo */}
           <div className="text-xl font-semibold">EKSPRESS</div>
 
@@ -88,7 +90,11 @@ export default function Navbar() {
             className="md:hidden text-white relative z-50"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <AiOutlineClose size={28} /> : <AiOutlineMenu size={28} />}
+            {isOpen ? (
+              <AiOutlineClose size={28} />
+            ) : (
+              <AiOutlineMenu size={28} />
+            )}
           </button>
         </nav>
 

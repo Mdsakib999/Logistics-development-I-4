@@ -1,16 +1,17 @@
+
 export default function Banner() {
   return (
     <div
       id="banner-section"
       className="h-[500px] sm:h-[600px] lg:h-[741px] bg-cover bg-center relative px-3 md:px-10 "
       style={{
-        backgroundImage: `url(https://i.ibb.co.com/dwtFQQSM/pexels-chanaka-906494.jpg)`,
+        backgroundImage: "url('/banner.jpg')",
       }}
     >
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      <div className="relative max-w-5xl mx-auto left-0 top-40 text-white space-y-6">
+      <div className="relative max-w-5xl mx-auto left-0 top-20 md:top-30 lg:top-40 text-white space-y-6">
         {/* Title section */}
         <div className="space-y-4 text-center lg:text-left">
           <p className="text-xs sm:text-sm uppercase tracking-widest opacity-80">

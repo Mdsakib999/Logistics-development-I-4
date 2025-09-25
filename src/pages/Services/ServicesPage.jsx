@@ -1,15 +1,16 @@
-import OurService from "../../components/Home/OurService";
 import Testimonials from "../../components/Home/Testimonials";
-import Choose from "./Choose";
+import ProcessSection from "./ProcessSection";
 import ServiceBanner from "./ServiceBanner";
+import ServicesSection from "./ServicesMain";
+import TestimonialsCarousel from "./TestimonialsCarousel";
 
 export default function ServicesPage(){
     return (
      <> 
         <ServiceBanner />
-        <OurService />
-        <Choose />
-        <Testimonials />
+        <ServicesSection />
+        <ProcessSection />
+        <TestimonialsCarousel />
      </>
     );
 }

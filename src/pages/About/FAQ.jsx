@@ -40,26 +40,33 @@ export default function FAQ() {
         {faq.map((fa, index) => (
           <div
             key={index}
-            className={`p-4 border rounded-lg shadow-sm cursor-pointer transition-colors`}
+            className={`p-4 border border-gray-300 rounded-lg shadow-sm cursor-pointer transition-colors`}
             onClick={() => toggleFAQ(index)}
           >
             <div className="flex justify-between items-center">
               <h2
-                className={`font-semibold text-lg ${
-                  activeIndex === index ? "text-yellow-600" : "text-black"
+                className={`text-lg ${
+                  activeIndex === index
+                    ? "text-0 font-bold opacity-70"
+                    : "text-black opacity-75 font-semibold"
                 }`}
               >
                 {fa.ques}
               </h2>
               {activeIndex === index ? (
-                <AiOutlineUp className="text-yellow-600" />
+                <AiOutlineUp className="text-gray-600" />
               ) : (
                 <AiOutlineDown className="text-gray-500" />
               )}
             </div>
-            {activeIndex === index && (
-              <p className="mt-2 text-gray-700">{fa.ans}</p>
-            )}
+
+            <div
+              className={`transition-all duration-600 overflow-hidden ${
+                activeIndex === index ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0"
+              }`}
+            >
+              <p className="text-gray-700">{fa.ans}</p>
+            </div>
           </div>
         ))}
       </div>
