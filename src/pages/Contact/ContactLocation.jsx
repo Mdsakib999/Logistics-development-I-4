@@ -55,7 +55,7 @@ export default function ContactLocation() {
             <div className="w-full h-[250px] sm:h-[300px] md:h-[400px] rounded-lg overflow-hidden">
               <iframe
                 title="company-location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.8142056819993!2d91.81207371116126!3d22.360643179558323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd9005629cff9%3A0x134782e81960acf0!2sSM%20IT%20SOLUTION!5e0!3m2!1sen!2sbd!4v1758615983499!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48890593.58373704!2d-18.710101204435016!3d41.58990882419923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ed8886cfadda85%3A0x72ef99e6b3fcf079!2sEurope!5e0!3m2!1sen!2sbd!4v1758793616331!5m2!1sen!2sbd"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

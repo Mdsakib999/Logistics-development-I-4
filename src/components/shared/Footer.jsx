@@ -14,12 +14,12 @@ export default function Footer() {
         </div>
 
         {/* ✅ Navigation */}
-        <div className="space-y-4 text-center ">
+        <div className="space-y-4 text-center">
           <h4 className="text-base sm:text-lg font-semibold text-white uppercase text-center">
             Navigation
           </h4>
-          <ul className="space-y-2 text-sm">
-            <li className="hover:text-white cursor-pointer transition ">Home</li>
+          <ul className="space-y-3 text-sm">
+            <li className="hover:text-white cursor-pointer transition">Home</li>
             <li className="hover:text-white cursor-pointer transition">
               About Us
             </li>
@@ -32,34 +32,49 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* ✅ Recent Project */}
-        <div className="space-y-4 text-center md:text-left">
-          <h4 className="text-base sm:text-lg font-semibold uppercase text-white">
-            Recent Project
+        {/* ✅ Support (New Column instead of Recent Project) */}
+        <div className="space-y-4 text-center">
+          <h4 className="text-base sm:text-lg font-semibold text-white uppercase text-center">
+            Support
           </h4>
-          <div className="flex gap-3 justify-center md:justify-start flex-wrap">
-            <div className="w-28 sm:w-32 md:w-36 h-20 sm:h-24 bg-gray-900 rounded-lg"></div>
-          </div>
+          <ul className="space-y-3 text-sm">
+            <li className="hover:text-white cursor-pointer transition">
+              Help Center
+            </li>
+            <li className="hover:text-white cursor-pointer transition">
+              Customer Care
+            </li>
+            <li className="hover:text-white cursor-pointer transition">
+              Privacy Policy
+            </li>
+            <li className="hover:text-white cursor-pointer transition">
+              Terms & Support
+            </li>
+          </ul>
         </div>
 
-        {/* ✅ Subscribe */}
+        {/* ✅ Subscribe + Social Icons */}
         <div className="space-y-4 text-center md:text-left">
           <h4 className="text-base sm:text-lg font-semibold text-white uppercase">
-            Subscribe Us
+            Stay Updated
           </h4>
-          <form className="space-y-2 flex flex-col items-center md:items-start">
-            <input
-              type="email"
-              required
-              placeholder="Your email address"
-              className="bg-white text-gray-800 focus:text-black placeholder-gray-500 text-sm px-4 py-2 rounded-md w-full max-w-xs focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="bg-yellow-500 hover:bg-yellow-400 text-black text-sm px-4 py-2 rounded-md w-full max-w-xs transition-colors duration-200"
-            >
-              Subscribe
-            </button>
+
+          {/* Subscribe Form */}
+          <form className="w-full max-w-sm mx-auto md:mx-0">
+            <div className="flex items-center bg-gray-900 rounded-full shadow-md overflow-hidden border border-gray-700">
+              <input
+                type="email"
+                required
+                placeholder="Your email address"
+                className="flex-1 min-w-0 bg-transparent text-gray-100 placeholder-gray-500 px-5 py-3 text-sm focus:ring-0 focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="flex-shrink-0 cursor-pointer bg-yellow-500 hover:bg-yellow-400 text-black px-5 py-3 font-semibold text-sm rounded-full transition-all duration-300"
+              >
+                Subscribe
+              </button>
+            </div>
           </form>
         </div>
       </div>
