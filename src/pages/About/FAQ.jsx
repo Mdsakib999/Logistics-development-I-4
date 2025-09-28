@@ -62,7 +62,7 @@ export default function FAQ() {
 
             <div
               className={`transition-all duration-600 overflow-hidden ${
-                activeIndex === index ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0"
+                activeIndex === index ? "max-h-40 opacity-75 mt-2" : "max-h-0 opacity-0"
               }`}
             >
               <p className="text-gray-700">{fa.ans}</p>

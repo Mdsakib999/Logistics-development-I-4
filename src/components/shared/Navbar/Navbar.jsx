@@ -1,29 +1,29 @@
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { NavLink } from "react-router";
+import { Link } from "react-router";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [showTopBar, setShowTopBar] = useState(false);
 
+
   useEffect(() => {
-    const bannerEl = document.getElementById("banner-section");
-    if (!bannerEl) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          setShowTopBar(entry.isIntersecting);
-        });
-      },
-      { threshold: 0.8 }
-    );
-
-    observer.observe(bannerEl);
-    
-    return () => {
-      if (bannerEl) observer.unobserve(bannerEl);
+    const handleScroll = () => {
+      if (location.pathname === "/") {
+        setShowTopBar(window.scrollY < 50); 
+      } else {
+        setShowTopBar(false); 
+      }
     };
+    handleScroll(); 
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [location]);
+
+  useEffect(() => {
+    
   }, []);
 
   return (
@@ -47,8 +47,9 @@ export default function Navbar() {
       <div className="bg-black relative z-50">
         <nav className="max-w-7xl mx-auto text-white p-4 -mt-1  flex justify-between items-center h-[94px] relative">
           {/* Logo */}
-          <div className="text-xl font-semibold">EKSPRESS</div>
-
+          <div className="text-xl font-semibold">
+            <Link to="/">EKSPRESS</Link>
+          </div>
           {/* Desktop nav */}
           <div className="hidden md:flex space-x-6 text-[14px] sm:text-[16px]">
             <NavLink
