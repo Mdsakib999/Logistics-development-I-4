@@ -1,4 +1,5 @@
 import { FiAnchor } from "react-icons/fi";
+import { Link } from "react-router";
 import Btn from "../../utils/Btn";
 import Subtitle from "../../utils/Subtitle";
 import Title from "../../utils/Title";
@@ -23,9 +24,11 @@ const AboutUs = () => {
             years of experience and a team of experts, we are dedicated to
             empowering your business with seamless shipping experiences.
           </p>
-          <div className="flex justify-center lg:justify-start">
-            <Btn>Learn More</Btn>
-          </div>
+          <Link to="/about">
+            <div className="flex justify-center lg:justify-start">
+              <Btn>Learn More</Btn>
+            </div>
+          </Link>
         </div>
         <div
           className="h-[250px] sm:h-[300px] md:h-[350px] lg:h-[380px] bg-cover bg-center w-full lg:w-4/12 rounded-2xl relative transform transition duration-900 hover:scale-105"
@@ -58,7 +61,7 @@ const AboutUs = () => {
               key={index}
               className="bg-black text-white rounded-xl px-6 py-3 flex items-center gap-4 sm:gap-6 w-full sm:w-[320px] transform transition duration-900 hover:scale-105"
             >
-              <div className="font-bold text-xl sm:text-2xl md:text-3xl">
+              <div className="font-bold text-xl sm:text-2xl md:text-3xl text-yellow-400">
                 {item.number}
               </div>
               <div className="h-10 sm:h-12 w-px bg-gray-500"></div>

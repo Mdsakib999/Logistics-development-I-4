@@ -42,7 +42,7 @@ export default function ServicesSection() {
   ];
 
   return (
-    <div className=" bg-gray-100">
+    <div className=" bg-gray-50">
       <div className="max-w-7xl mx-auto px-5 py-16">
         {/* ✅ Section Header */}
         <div className="text-center mb-12">
@@ -57,10 +57,10 @@ export default function ServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="w-full sm:w-[280px] md:w-[300px] lg:w-[326px] h-auto bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center text-center transition-transform duration-500 ease-in-out hover:shadow-2xl hover:-translate-y-1"
+              className="w-full sm:w-[280px] md:w-[300px] lg:w-[326px] h-auto bg-white shadow-md rounded-2xl p-6 flex flex-col items-center text-center transition-transform duration-500 ease-in-out hover:shadow-lg hover:-translate-y-1"
             >
               {/* Icon */}
-              <div className="bg-yellow-100 text-yellow-600 p-4 rounded-full mb-4">
+              <div className="bg-yellow-400 p-4 rounded-full mb-4">
                 {service.icon}
               </div>
 

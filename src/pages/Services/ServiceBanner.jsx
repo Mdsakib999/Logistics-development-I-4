@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Btn from "../../utils/Btn";
 import Subtitle from "../../utils/Subtitle";
 import Title from "../../utils/Title";
@@ -16,25 +17,27 @@ export default function ServiceBanner() {
             years of experience and a team of experts, we are dedicated to
             empowering your business with seamless shipping experiences.
           </p>
-          <div className="flex justify-center lg:justify-start">
-            <Btn>Learn More</Btn>
-          </div>
+          <Link to="/contact">
+            <div className="flex justify-center lg:justify-start">
+              <Btn>Learn More</Btn>
+            </div>
+          </Link>
         </div>
 
         {/* Right Content (Images) */}
-        <div className="relative mt-0 lg:mt-16 w-full lg:w-5/12 flex flex-co sm:flex-row justify-center items-center gap-6 lg:gap-0 lg:block h-auto lg:h-[420px] ">
+        <div className="relative w-11/12 lg:mt-12 md:w-6/12 lg:w-5/12 h-[320px] sm:h-[360px] md:h-[400px] lg:h-[420px]">
           {/* Left Image */}
           <img
             src="https://i.ibb.co.com/k6yJjXtr/Frame-1000007304.png"
             alt="containers"
-            className="rounded-lg w-[145px] sm:w-[220px] md:w-[240px] lg:w-[245px] object-cover h-[260px] sm:h-[300px] md:h-[340px] lg:h-full lg:absolute lg:left-0 lg:bottom-0 transition hover:scale-105 duration-1000"
+            className="rounded-lg w-[145px] sm:w-[200px] md:w-[220px] hover:z-10 lg:w-[245px] h-[240px] sm:h-[280px] md:h-[320px] lg:h-full object-cover absolute left-0 bottom-0 transition-all hover:brightness-110 duration-1000"
           />
 
           {/* Right Image */}
           <img
             src="https://i.ibb.co.com/M5fXXX4S/Frame-1000007305.png"
             alt="warehouse"
-            className="rounded-lg w-[145px] sm:w-[220px] md:w-[240px] lg:w-[245px] object-cover h-[260px] sm:h-[300px] md:h-[340px] lg:h-full lg:absolute lg:right-0 lg:bottom-16 transition hover:scale-105 duration-1000"
+            className="rounded-lg w-[145px] sm:w-[200px] md:w-[220px]  lg:w-[245px] h-[240px] sm:h-[280px] md:h-[320px] lg:h-full object-cover absolute right-0 bottom-8 sm:bottom-12 md:bottom-14 lg:bottom-16 transition-all hover:brightness-110 duration-1000"
           />
         </div>
       </div>

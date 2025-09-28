@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router";
 
 export default function ContactForm() {
   const {
@@ -15,10 +16,7 @@ export default function ContactForm() {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit(onSubmit)}
-      className="mt-16 space-y-6"
-    >
+    <form onSubmit={handleSubmit(onSubmit)} className="mt-16 space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <label className="block mb-1">Your Name</label>
@@ -51,9 +49,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label className="block mb-1">
-            Phone Number (optional)
-          </label>
+          <label className="block mb-1">Phone Number (optional)</label>
           <input
             type="tel"
             {...register("phone")}
@@ -76,12 +72,14 @@ export default function ContactForm() {
       </div>
 
       {/* Submit Button */}
-      <button
-        type="submit"
-        className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-md hover:bg-gray-800 transition"
-      >
-        Leave us a Message <FaArrowRight />
-      </button>
+      <Link to="/">
+        <button
+          type="button"
+          className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-md hover:bg-gray-800 transition"
+        >
+          Leave us a Message <FaArrowRight />
+        </button>
+      </Link>
     </form>
   );
 }
