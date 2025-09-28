@@ -63,13 +63,13 @@ export default function ShippingExperience() {
           </div>
 
           {/* Right Content */}
-          <div className="w-full lg:w-1/2 flex flex-col items-center space-y-4">
+          <div className="w-full lg:w-1/2 flex flex-col items-center space-y-4 ">
             <img
               src="https://i.ibb.co.com/BHr1YjL7/Image.png"
               alt="Truck"
-              className="rounded-2xl w-full sm:w-[400px] h-[250px] sm:h-[350px] md:h-[420px] object-cover"
+              className="rounded-2xl w-full sm:w-[400px] h-[250px] sm:h-[350px] md:h-[420px] object-cover transform transition duration-900 hover:scale-105"
             />
-            <div className="bg-[#111] rounded-2xl w-full sm:w-[400px] p-4 sm:p-6 text-center space-y-2 shadow-lg">
+            <div className="bg-[#111] rounded-2xl w-full sm:w-[400px] p-4 sm:p-6 text-center space-y-2 shadow-lg transform transition duration-900 hover:scale-105">
               <div className="flex justify-center gap-1 text-yellow-400">
                 <FaStar size={18} className="sm:size-[20px] md:size-[22px]" />
                 <FaStar size={18} className="sm:size-[20px] md:size-[22px]" />

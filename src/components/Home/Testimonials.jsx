@@ -41,7 +41,7 @@ export default function Testimonials() {
   return (
     <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center px-5 py-10 gap-10">
       {/* ✅ Left side - Featured testimonial */}
-      <div className="w-full lg:w-1/2 space-y-5">
+      <div className="w-full lg:w-1/2 space-y-5 px-4">
         <div>
           <Title>Testimonials</Title>
           <Subtitle>Our Clients Speak for Us</Subtitle>
@@ -88,7 +88,7 @@ export default function Testimonials() {
       </div>
 
       {/* ✅ Right side - Other testimonials */}
-      <div className="w-full lg:w-5/12 space-y-3">
+      <div className="w-full lg:w-5/12 space-y-3 px-4">
         {testimonials
           .filter((t) => !t.featured)
           .map((item, idx) => (

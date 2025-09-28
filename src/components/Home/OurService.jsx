@@ -45,14 +45,14 @@ export default function OurService() {
         </div>
 
         <div className="flex justify-around">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-2">
             {services.map((service, i) => (
               <div
                 key={i}
-                className={`w-full sm:w-[280px] md:w-[300px] lg:w-[326px] ${
+                className={`w-full sm:w-[270px] md:w-[300px] lg:w-[326px] ${
                   i === 0 ? "bg-yellow-500 text-white" : "bg-white"
                 } h-auto rounded-md shadow-md flex flex-col items-start p-4 sm:p-6 pt-8 sm:pt-10 space-y-4 
-                transition-transform duration-300 hover:scale-105 hover:shadow-lg`}
+                transform transition duration-900 hover:scale-105 hover:shadow-lg`}
               >
                 <div className="w-12 h-12 sm:w-[60px] sm:h-[60px] rounded-2xl flex items-center justify-center">
                   <img

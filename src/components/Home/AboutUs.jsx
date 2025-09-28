@@ -28,7 +28,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div
-          className="h-[250px] sm:h-[300px] md:h-[350px] lg:h-[380px] bg-cover bg-center w-full lg:w-4/12 rounded-2xl relative"
+          className="h-[250px] sm:h-[300px] md:h-[350px] lg:h-[380px] bg-cover bg-center w-full lg:w-4/12 rounded-2xl relative transform transition duration-900 hover:scale-105"
           style={{
             backgroundImage: `url(https://i.ibb.co.com/RkKfDVB3/Frame-1000007304-1.png)`,
           }}
@@ -56,7 +56,7 @@ const AboutUs = () => {
           {features.map((item, index) => (
             <div
               key={index}
-              className="bg-black text-white rounded-xl px-6 py-3 flex items-center gap-4 sm:gap-6 w-full sm:w-[320px]"
+              className="bg-black text-white rounded-xl px-6 py-3 flex items-center gap-4 sm:gap-6 w-full sm:w-[320px] transform transition duration-900 hover:scale-105"
             >
               <div className="font-bold text-xl sm:text-2xl md:text-3xl">
                 {item.number}
