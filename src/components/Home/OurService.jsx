@@ -49,23 +49,27 @@ export default function OurService() {
             {services.map((service, i) => (
               <div
                 key={i}
-                className={`w-full sm:w-[270px] md:w-[300px] lg:w-[326px] ${
-                  i === 0 ? "bg-yellow-500 text-white" : "bg-white"
-                } h-auto rounded-md shadow-md flex flex-col items-start p-4 sm:p-6 pt-8 sm:pt-10 space-y-4 
-                transform transition duration-900 hover:scale-105 hover:shadow-lg`}
+                // 🟡 Added group for group-hover styling
+                className={`group w-full sm:w-[270px] md:w-[300px] lg:w-[326px] ${
+                  i === 0
+                    ? "bg-yellow-500 text-white hover:bg-white hover:text-black"
+                    : "bg-white hover:bg-yellow-500 hover:text-white"
+                } h-auto rounded-md shadow-md flex flex-col items-start p-4 sm:p-6 pt-8 sm:pt-10 space-y-4 hover:shadow-lg transition duration-300`}
               >
                 <div className="w-12 h-12 sm:w-[60px] sm:h-[60px] rounded-2xl flex items-center justify-center">
                   <img
                     className="rounded-xl w-full h-full object-cover"
                     src={service.img}
-                    alt={service.name}
                   />
                 </div>
                 <div className="space-y-2">
                   <h3
+                    // 🟡 Fixed: title now changes with card hover (always visible)
                     className={`text-lg sm:text-xl md:text-[20px] font-semibold uppercase ${
-                      i === 0 ? "text-white" : "text-yellow-400"
-                    }`}
+                      i === 0
+                        ? "text-white group-hover:text-yellow-500"
+                        : "text-yellow-500 group-hover:text-white"
+                    } transition duration-300`}
                   >
                     {service.name}
                   </h3>

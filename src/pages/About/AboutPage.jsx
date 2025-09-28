@@ -2,7 +2,7 @@ import AboutUs from "../../components/Home/AboutUs";
 import Btn from "../../utils/Btn";
 import Subtitle from "../../utils/Subtitle";
 import Title from "../../utils/Title";
-import Choose from "../Services/Choose";
+import Choose from "./Choose";
 import AboutUsBanner from "./AboutUsBanner";
 import FAQ from "./FAQ";
 
