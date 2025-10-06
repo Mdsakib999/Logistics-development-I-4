@@ -1,4 +1,4 @@
-import AboutUs from "../../components/Home/AboutUs";
+import AboutUs from "./AboutUs";
 import Btn from "../../utils/Btn";
 import Subtitle from "../../utils/Subtitle";
 import Title from "../../utils/Title";

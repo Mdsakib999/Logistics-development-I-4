@@ -11,7 +11,7 @@ export default function Contact() {
         {/* Left section */}
         <div className="w-2/3 space-y-3">
           <Title>Get started</Title>
-          <Subtitle>Get in touch with us. We're here to assist you.</Subtitle>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold uppercase text-left">Get in touch with us. We're here to assist you.</h1>
         </div>
 
         {/* Right section - Social icons */}
@@ -19,8 +19,7 @@ export default function Contact() {
           {/* Facebook */}
           <a
             href="#"
-            className="flex items-center justify-center w-10 h-10 border border-gray-400 rounded-full transform hover:scale-110
- bg-blue-600 text-white transition duration-300"
+            className="flex items-center justify-center w-10 h-10 border border-gray-400 rounded-full transform hover:scale-110 bg-blue-600 text-white transition duration-300"
           >
             <FaFacebookF className="text-lg" />
           </a>

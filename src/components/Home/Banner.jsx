@@ -1,3 +1,4 @@
+import Countup from "../../utils/Countup";
 
 export default function Banner() {
   return (
@@ -27,7 +28,6 @@ export default function Banner() {
           </p>
         </div>
 
-
         <div className="flex justify-center lg:justify-start">
           <div className="flex bg-white text-black flex-row items-center gap-6 rounded-md shadow-lg p-4 sm:p-6 w-64 h-20 sm:w-fit sm:h-fit mx-auto lg:mx-0 absolute top-60">
             <img
@@ -37,7 +37,9 @@ export default function Banner() {
             />
 
             <div className="text-center">
-              <h2 className="font-bold text-2xl sm:text-4xl">26K</h2>
+              <h2 className="font-bold text-2xl sm:text-4xl">
+                <Countup>26</Countup>K
+              </h2>
               <p className="text-sm font-medium opacity-70">
                 Satisfied Clients
               </p>
@@ -46,7 +48,9 @@ export default function Banner() {
             <div className="hidden sm:block w-px h-12 sm:h-16 bg-gray-300"></div>
 
             <div className="text-center">
-              <h2 className="font-bold text-2xl sm:text-4xl">12+</h2>
+              <h2 className="font-bold text-2xl sm:text-4xl">
+                <Countup>12</Countup>+
+              </h2>
               <p className="text-xs sm:text-sm font-medium opacity-70">
                 Years of Experience
               </p>
