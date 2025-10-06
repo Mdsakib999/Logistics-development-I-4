@@ -44,7 +44,7 @@ export default function TestimonialsCarousel() {
   const testimonial = testimonials[current];
 
   return (
-    <div className="bg-[#F8FAFC] py-20">
+    <div className="bg-[#F8FAFC] py-20 bg-gradient-to-br from-white via-white to-amber-50">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-12">

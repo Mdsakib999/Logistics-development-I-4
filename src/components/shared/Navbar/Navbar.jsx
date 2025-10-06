@@ -61,10 +61,10 @@ export default function Navbar() {
           </div>
           {/* Desktop nav */}
           <div className="hidden md:flex space-x-6 text-[14px] sm:text-[16px]">
-            <NavLink to="/" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>HOME</NavLink>
-            <NavLink to="/about" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>ABOUT US</NavLink>
-            <NavLink to="/services" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>SERVICES</NavLink>
-            <NavLink to="/contact" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>CONTACT US</NavLink>
+            <NavLink to="/" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2 "}>HOME</NavLink>
+            <NavLink to="/about" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2"}>ABOUT US</NavLink>
+            <NavLink to="/services" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2"}>SERVICES</NavLink>
+            <NavLink to="/contact" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2"}>CONTACT US</NavLink>
           </div>
 
           {/* Mobile toggle */}
