@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import Banner from "../../components/Home/Banner";
+import { useState } from "react";
+import { Link } from "react-router";
 import Btn from "../../utils/Btn";
 import Subtitle from "../../utils/Subtitle";
 
@@ -39,14 +39,12 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
-          
           <div className="flex justify-center pb-2 md:pb-4">
-            <Subtitle>
-            Frequently Asked Questions
-          </Subtitle>
+            <Subtitle>Frequently Asked Questions</Subtitle>
           </div>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto opacity-85">
-            Everything you need to know about Uvodo. Can't find the answer you're looking for? Feel free to reach out to our support team.
+            Everything you need to know about Uvodo. Can't find the answer
+            you're looking for? Feel free to reach out to our support team.
           </p>
         </div>
 
@@ -106,12 +104,14 @@ export default function FAQ() {
           <p className="text-gray-600 mb-6">
             Our support team is here to help you get started with Uvodo.
           </p>
-          <button className=" ">
-            <Btn>Contact Support</Btn>
-          </button>
-          
+          <Link to="/contact">
+            <button className=" ">
+              <Btn>Contact Support</Btn>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
+    
   );
 }
