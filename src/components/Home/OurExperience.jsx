@@ -21,7 +21,7 @@ const Experience = () => {
             <span className="text-yellow-500"> damage free.</span>
           </Subtitle>
 
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 px-4 md:px-36">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
             {/* Button */}
             <div>
               <Btn>Know More</Btn>
