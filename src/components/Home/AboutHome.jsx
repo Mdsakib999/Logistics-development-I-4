@@ -51,10 +51,7 @@ export default function AboutHome() {
             <Title>About FastGo</Title>
             <Subtitle>
               Empowering Your Business with{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500">
-                {" "}
-                Tailored Logistics
-              </span>
+              <span className="text-yellow-400"> Tailored Logistics</span>
             </Subtitle>
 
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -81,7 +78,7 @@ export default function AboutHome() {
             </div>
 
             <Link to="/about">
-              <button className="group bg-gradient-to-r from-yellow-400 to-orange-500 cursor-pointer text-white px-4 md:px-8 py-3 md:py-4 rounded-full font-semibold flex items-center gap-2 hover:shadow-lg">
+              <button className="group bg-yellow-400 cursor-pointer text-white px-4 md:px-8 py-3 md:py-4 rounded-md font-semibold flex items-center gap-2 hover:shadow-lg">
                 Learn More About Us
                 <ArrowRight
                   className="group-hover:translate-x-1 transition-transform"
@@ -103,7 +100,7 @@ export default function AboutHome() {
 
               {/* Floating Award Card */}
               <div className="absolute bottom-8 left-8 bg-white rounded-2xl p-6 shadow-xl max-w-[200px]">
-                <div className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg">
+                <div className="absolute -top-4 -right-4 w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
                   <Award className="text-white" size={24} />
                 </div>
                 <div className="text-4xl md:text-5xl  font-bold text-gray-900 opacity-80 mb-2">
@@ -114,10 +111,6 @@ export default function AboutHome() {
                 </div>
               </div>
             </div>
-
-            {/* Decorative Elements */}
-            <div className="absolute -top-6 -right-6 w-24 h-24 bg-yellow-200 rounded-full blur-3xl opacity-60"></div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-orange-200 rounded-full blur-3xl opacity-60"></div>
           </div>
         </div>
 
@@ -126,10 +119,10 @@ export default function AboutHome() {
           {features.map((feature, idx) => (
             <div
               key={idx}
-              className="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-xl hover:border-yellow-200 transition-all duration-300 hover:-translate-y-1"
+              className="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-xl hover:border-yellow-500 transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-14 h-14 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
-                <feature.icon className="text-yellow-600" size={28} />
+              <div className="w-14 h-14 bg-gray-800 rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                <feature.icon className="text-yellow-400" size={28} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 {feature.title}

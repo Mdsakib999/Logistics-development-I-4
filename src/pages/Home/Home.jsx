@@ -1,5 +1,6 @@
 import AboutHome from "../../components/Home/AboutHome";
 import Banner from "../../components/Home/Banner";
+import CTA from "../../components/Home/CTA";
 import Experience from "../../components/Home/OurExperience";
 import OurService from "../../components/Home/OurService";
 import ShippingExperience from "../../components/Home/ShippingExperience";
@@ -10,11 +11,12 @@ export default function Home() {
     <div>
       <Banner />
 
-      <div >
+      <div>
         <AboutHome />
         <OurService />
         <ShippingExperience />
         <Experience />
+        <CTA />
         <Testimonials />
       </div>
     </div>
