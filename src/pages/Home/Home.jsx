@@ -1,5 +1,6 @@
 import AboutHome from "../../components/Home/AboutHome";
 import Banner from "../../components/Home/Banner";
+import ContactForm from "../../components/Home/ContactForm";
 import CTA from "../../components/Home/CTA";
 import Experience from "../../components/Home/OurExperience";
 import OurService from "../../components/Home/OurService";
@@ -18,6 +19,7 @@ export default function Home() {
         <Experience />
         <CTA />
         <Testimonials />
+        <ContactForm />
       </div>
     </div>
   );

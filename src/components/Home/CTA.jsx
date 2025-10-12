@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router";
-import Title from "../../utils/Title";
 import Subtitle from "../../utils/Subtitle";
 
 export default function CTA() {
@@ -10,7 +9,7 @@ export default function CTA() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Text */}
           <div className="space-y-8 text-white">
-            <Title>Logistics communication rethought.</Title>
+            <Subtitle>Logistics communication rethought.</Subtitle>
 
             <p className="max-w-xl text-lg text-gray-400 leading-relaxed">
               FastGo helps you get the most from every shipment — real-time
