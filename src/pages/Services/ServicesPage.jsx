@@ -3,12 +3,14 @@ import ProcessSection from "./ProcessSection";
 import ServiceBanner from "./ServiceBanner";
 import ServicesSection from "./ServicesMain";
 import TestimonialsCarousel from "./TestimonialsCarousel";
+import TransportTypes from "./TransportTypes";
 
 export default function ServicesPage(){
     return (
      <> 
         <ServiceBanner />
         <ServicesSection />
+        <TransportTypes />
         <ProcessSection />
         <TestimonialsCarousel />
      </>
