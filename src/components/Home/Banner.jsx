@@ -12,7 +12,7 @@ export default function Banner() {
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      <div className="relative max-w-5xl mx-auto left-0 top-20 md:top-30 lg:top-40 text-white space-y-6">
+      <div className="relative max-w-7xl lg:px-6 mx-auto left-0 top-20 md:top-30 lg:top-40 text-white space-y-6">
         {/* Title section */}
         <div className="space-y-4 text-center lg:text-left">
           <p className="text-xs sm:text-sm uppercase tracking-widest opacity-80">
