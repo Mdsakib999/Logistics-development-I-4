@@ -6,27 +6,28 @@ import Title from "../../utils/Title";
 
 const AboutUs = () => {
   const features = [
-    { number: "01", title: "Expertise and Experience" },
-    { number: "02", title: "Committed to Quality" },
-    { number: "03", title: "Comprehensive Services" },
+    { number: "01", title: "Fachwissen und Erfahrung" },
+    { number: "02", title: "Verpflichtung zur Qualität" },
+    { number: "03", title: "Umfassende Dienstleistungen" },
   ];
   return (
     <div className="max-w-7xl mx-auto p-10 py-10">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-8 w-full">
         <div className="w-full lg:w-6/12 space-y-5 text-center lg:text-left ">
-          <Title>About us</Title>
+          <Title>Über uns</Title>
           <Subtitle>
-            Empowering Your Business with Tailored Logistics Solutions
+            Stärkung Ihres Unternehmens mit maßgeschneiderten Logistiklösungen
           </Subtitle>
           <p className="text-sm md:text-base text-[#5C6C7B] max-w-xl mx-auto lg:mx-0">
-            At FastGo, we believe in providing our clients with personalized and
-            efficient logistics solutions that meet their unique needs. With
-            years of experience and a team of experts, we are dedicated to
-            empowering your business with seamless shipping experiences.
+            Bei FastGo glauben wir daran, unseren Kunden personalisierte und
+            effiziente Logistiklösungen zu bieten, die ihren einzigartigen
+            Bedürfnissen entsprechen. Mit jahrelanger Erfahrung und einem Team
+            von Experten sind wir bestrebt, Ihr Unternehmen mit nahtlosen
+            Versanderfahrungen zu stärken.
           </p>
           <Link to="/about">
             <div className="flex justify-center lg:justify-start">
-              <Btn>Learn More</Btn>
+              <Btn>Mehr erfahren</Btn>
             </div>
           </Link>
         </div>
@@ -46,7 +47,7 @@ const AboutUs = () => {
               </h1>
               <div className="w-[100px] sm:w-[115px] h-[40px] sm:h-[50px] bg-yellow-400 absolute bottom-3 rounded-md flex items-center justify-center">
                 <p className="text-white uppercase text-xs sm:text-sm text-center">
-                  Awards Winning
+                  Ausgezeichnete Leistungen
                 </p>
               </div>
             </div>

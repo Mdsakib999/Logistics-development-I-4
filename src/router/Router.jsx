@@ -4,14 +4,13 @@ import Home from "../pages/Home/Home";
 import Contact from "../pages/Contact/Contact";
 import ServicesPage from "../pages/Services/ServicesPage";
 import AboutPage from "../pages/About/AboutPage";
-
-
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: App,
-    // errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -32,7 +31,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-  
 ]);
 
 export default router;

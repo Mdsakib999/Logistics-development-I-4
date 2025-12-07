@@ -3,19 +3,19 @@ import { IoLocationSharp } from "react-icons/io5";
 export default function ContactLocation() {
   const features = [
     {
-      title: "North America Headquarters",
+      title: "Hauptsitz Nordamerika",
       description:
-        "Our central hub for freight operations across the U.S., Canada, and Mexico, ensuring seamless cross-border logistics.",
+        "Unser zentraler Knotenpunkt für Frachtoperationen in den USA, Kanada und Mexiko gewährleistet nahtlose grenzüberschreitende Logistik.",
     },
     {
-      title: "European Office",
+      title: "Europäisches Büro",
       description:
-        "Serving customers across the EU with efficient and scalable freight solutions tailored for regional logistics.",
+        "Bedienung von Kunden in der gesamten EU mit effizienten und skalierbaren Frachtlösungen, die auf regionale Logistik zugeschnitten sind.",
     },
     {
-      title: "Asia-Pacific Hub",
+      title: "Asien-Pazifik-Hub",
       description:
-        "Strategically located to manage cross-border shipping and logistics in South Asia, Southeast Asia, and Oceania.",
+        "Strategisch gelegen zur Verwaltung von grenzüberschreitendem Versand und Logistik in Südasien, Südostasien und Ozeanien.",
     },
   ];
 
@@ -23,7 +23,7 @@ export default function ContactLocation() {
     <div className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold uppercase text-center md:text-left pb-7">
-          Location
+          Standort
         </h1>
 
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">

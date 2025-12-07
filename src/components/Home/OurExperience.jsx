@@ -9,7 +9,7 @@ const Experience = () => {
     <div className="py-16 sm:py-20 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Section Title */}
       <div className="text-center mb-10">
-        <Title>Our Experience</Title>
+        <Title>Unsere Erfahrung</Title>
       </div>
 
       {/* Main Container */}
@@ -17,14 +17,14 @@ const Experience = () => {
         {/* Left Section */}
         <div className="w-full lg:w-1/3 space-y-6">
           <Subtitle>
-            Fast, reliable & 
-            <span className="text-yellow-500"> damage free.</span>
+            Schnell, zuverlässig &
+            <span className="text-yellow-500"> schadensfrei.</span>
           </Subtitle>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
             {/* Button */}
             <div>
-              <Btn>Know More</Btn>
+              <Btn>Mehr erfahren</Btn>
             </div>
 
             {/* Contact Info */}
@@ -34,7 +34,9 @@ const Experience = () => {
                 className="text-yellow-500 flex-shrink-0"
               />
               <p className="text-sm sm:text-base leading-tight">
-                <span className="opacity-80 block">Call Us anytime</span>
+                <span className="opacity-80 block">
+                  Rufen Sie uns jederzeit an
+                </span>
                 <span className="text-black font-semibold block">
                   +1 (555) 000-0000
                 </span>
@@ -50,7 +52,7 @@ const Experience = () => {
             <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-all duration-500"></div>
             <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
               <h3 className="text-white font-medium text-base sm:text-lg">
-                Road Transport
+                Straßentransport
               </h3>
               <FaArrowRight
                 className="text-yellow-400 bg-black p-2 rounded-full group-hover:bg-yellow-500 group-hover:text-black cursor-pointer"
@@ -64,7 +66,7 @@ const Experience = () => {
             <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-all duration-500"></div>
             <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
               <h3 className="text-white font-medium text-base sm:text-lg">
-                Sea Freight
+                Seefracht
               </h3>
               <FaArrowRight
                 className="text-yellow-400 bg-black p-2 rounded-full group-hover:bg-yellow-500 group-hover:text-black cursor-pointer"
@@ -78,7 +80,7 @@ const Experience = () => {
             <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-all duration-500"></div>
             <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
               <h3 className="text-white font-medium text-base sm:text-lg">
-                Rail Logistics
+                Schienenlogistik
               </h3>
               <FaArrowRight
                 className="text-yellow-400 bg-black p-2 rounded-full group-hover:bg-yellow-500 group-hover:text-black cursor-pointer"

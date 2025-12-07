@@ -6,27 +6,27 @@ import Title from "../../utils/Title";
 export default function ProcessSection() {
   const steps = [
     {
-      step: "Step 01",
-      title: "Consultation",
-      desc: "We start by understanding your business needs and designing a tailored logistics solution.",
+      step: "Schritt 01",
+      title: "Beratung",
+      desc: "Wir beginnen damit, Ihre geschäftlichen Anforderungen zu verstehen und eine maßgeschneiderte Logistiklösung zu entwerfen.",
       icon: MessageSquare,
     },
     {
-      step: "Step 02",
-      title: "Planning",
-      desc: "Our experts create a detailed route and timeline ensuring cost-efficiency and reliability.",
+      step: "Schritt 02",
+      title: "Planung",
+      desc: "Unsere Experten erstellen eine detaillierte Route und einen Zeitplan, um Kosteneffizienz und Zuverlässigkeit zu gewährleisten.",
       icon: MapPin,
     },
     {
-      step: "Step 03",
-      title: "Execution",
-      desc: "From packaging to transport, we execute with precision and continuous tracking.",
+      step: "Schritt 03",
+      title: "Ausführung",
+      desc: "Von der Verpackung bis zum Transport führen wir alles mit Präzision und kontinuierlicher Verfolgung aus.",
       icon: Package,
     },
     {
-      step: "Step 04",
-      title: "Delivery",
-      desc: "Timely delivery at your destination with complete safety and satisfaction guaranteed.",
+      step: "Schritt 04",
+      title: "Lieferung",
+      desc: "Pünktliche Lieferung an Ihrem Zielort mit garantierter Sicherheit und Zufriedenheit.",
       icon: CheckCircle,
     },
   ];
@@ -36,13 +36,13 @@ export default function ProcessSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 lg:mb-16">
-          <Title>HOW WE WORK</Title>
+          <Title>WIE WIR ARBEITEN</Title>
           <div className="flex justify-center">
-            <Subtitle>Simple Steps to Seamless Shipping</Subtitle>
+            <Subtitle>Einfache Schritte für einen nahtlosen Versand</Subtitle>
           </div>
           <p className="text-gray-600 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto mt-4">
-            From consultation to delivery, our process is designed to keep
-            things simple, transparent, and effective.
+            Von der Beratung bis zur Lieferung ist unser Prozess darauf
+            ausgelegt, die Dinge einfach, transparent und effektiv zu halten.
           </p>
         </div>
 
@@ -111,11 +111,12 @@ export default function ProcessSection() {
         {/* CTA Section */}
         <div className="mt-16 text-center bg-white rounded-2xl shadow-lg p-8 sm:p-10 max-w-4xl mx-auto border-2 border-gray-100">
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-            Ready to Ship with Confidence?
+            Bereit für den sicheren Versand?
           </h3>
           <p className="text-gray-600 text-base sm:text-lg mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses that trust us with their logistics
-            needs. Get started today and experience hassle-free shipping.
+            Schließen Sie sich Tausenden von Unternehmen an, die uns ihre
+            Logistikbedürfnisse anvertrauen. Starten Sie noch heute und erleben
+            Sie einen problemlosen Versand.
           </p>
           <div className="flex justify-center items-center">
             <Link
@@ -125,7 +126,7 @@ export default function ProcessSection() {
                   text-center flex justify-center items-center cursor-pointer  transition duration-300 bg-yellow-500 text-black
                 "
             >
-              Get a Free Quote
+              Kostenloses Angebot anfordern
             </Link>
           </div>
         </div>

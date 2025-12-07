@@ -7,24 +7,24 @@ import Subtitle from "../../utils/Subtitle";
 export default function FAQ() {
   const faq = [
     {
-      ques: "How is Uvodo different from other eCommerce platforms?",
-      ans: "Uvodo is a lightweight, headless, and no-code eCommerce solution designed for modern businesses. Unlike traditional platforms, it lets you sell across multiple channels (social media, payment links, websites) without needing a complex setup or high technical knowledge.",
+      ques: "Wie unterscheidet sich FastGo von anderen Logistikplattformen?",
+      ans: "FastGo ist eine leichte, headless und no-code Logistiklösung für moderne Unternehmen. Anders als herkömmliche Plattformen können Sie über mehrere Kanäle (Social Media, Zahlungslinks, Websites) verkaufen, ohne eine komplexe Einrichtung oder hohes technisches Wissen zu benötigen.",
     },
     {
-      ques: "Can I use my own domain with Uvodo?",
-      ans: "Yes, you can connect your existing domain. Uvodo also provides a forever free uvo.do domain suffix to all sellers upon creating an account.",
+      ques: "Kann ich meine eigene Domain mit FastGo nutzen?",
+      ans: "Ja, Sie können Ihre bestehende Domain verbinden. FastGo bietet auch ein kostenloses Domain-Suffix für alle Verkäufer bei der Kontoerstellung.",
     },
     {
-      ques: "Can I sell my products with Uvodo without creating an online store?",
-      ans: "Yes! With Uvodo, you can generate payment links and share them directly on social media, messaging apps, or email. Customers can complete their purchases without visiting a traditional online store.",
+      ques: "Kann ich meine Produkte mit FastGo verkaufen, ohne einen Online-Shop zu erstellen?",
+      ans: "Ja! Mit FastGo können Sie Zahlungslinks generieren und diese direkt über soziale Medien, Messaging-Apps oder E-Mail teilen. Kunden können ihre Einkäufe abschließen, ohne einen traditionellen Online-Shop zu besuchen.",
     },
     {
-      ques: "Is there a setup fee for using Uvodo?",
-      ans: "No, there are no setup fees. You can start using Uvodo for free right after creating your account.",
+      ques: "Gibt es eine Einrichtungsgebühr für die Nutzung von FastGo?",
+      ans: "Nein, es gibt keine Einrichtungsgebühren. Sie können FastGo sofort nach der Kontoerstellung kostenlos nutzen.",
     },
     {
-      ques: "Are there any transaction fees or commissions?",
-      ans: "No, Uvodo does not charge commissions or hidden fees on your sales. You only pay standard payment gateway fees (like Stripe or PayPal) depending on the provider you connect.",
+      ques: "Gibt es Transaktionsgebühren oder Provisionen?",
+      ans: "Nein, FastGo erhebt keine Provisionen oder versteckte Gebühren auf Ihre Verkäufe. Sie zahlen nur die üblichen Gebühren des Zahlungsanbieters (wie Stripe oder PayPal), je nach Anbieter, den Sie verbinden.",
     },
   ];
 
@@ -40,11 +40,11 @@ export default function FAQ() {
         {/* Header Section */}
         <div className="text-center mb-12">
           <div className="flex justify-center pb-2 md:pb-4">
-            <Subtitle>Frequently Asked Questions</Subtitle>
+            <Subtitle>Häufig gestellte Fragen</Subtitle>
           </div>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto opacity-85">
-            Everything you need to know about Uvodo. Can't find the answer
-            you're looking for? Feel free to reach out to our support team.
+            Alles, was Sie über FastGo wissen müssen. Finden Sie nicht die
+            Antwort, die Sie suchen? Kontaktieren Sie gerne unser Support-Team.
           </p>
         </div>
 
@@ -99,19 +99,19 @@ export default function FAQ() {
         {/* Bottom CTA Section */}
         <div className="mt-12 text-center bg-white rounded-xl shadow-sm p-6 sm:p-8">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3">
-            Still have questions?
+            Haben Sie noch Fragen?
           </h3>
           <p className="text-gray-600 mb-6">
-            Our support team is here to help you get started with Uvodo.
+            Unser Support-Team ist hier, um Ihnen beim Einstieg mit FastGo zu
+            helfen.
           </p>
           <Link to="/contact">
             <button className=" ">
-              <Btn>Contact Support</Btn>
+              <Btn>Support kontaktieren</Btn>
             </button>
           </Link>
         </div>
       </div>
     </div>
-    
   );
 }

@@ -12,34 +12,33 @@ import {
 export default function OurService() {
   const services = [
     {
-      name: "Ocean Shipping",
-      desc: "At FastGo, we provide reliable ocean freight solutions tailored to your cargo and schedule.",
-      // icon: FaShip
+      name: "Seefracht",
+      desc: "Bei FastGo bieten wir zuverlässige Seefrachtlösungen, die auf Ihre Ladung und Ihren Zeitplan zugeschnitten sind.",
       icon: <FaShip size={20} />,
     },
     {
-      name: "Air Freight",
-      desc: "Fast, secure air freight services for time-sensitive shipments across the globe.",
+      name: "Luftfracht",
+      desc: "Schnelle, sichere Luftfracht für zeitkritische Sendungen weltweit.",
       icon: <FaPlane size={20} />,
     },
     {
-      name: "Road Transport",
-      desc: "Efficient road transport networks for last-mile and long-haul deliveries.",
+      name: "Straßentransport",
+      desc: "Effiziente Straßentransportnetze für letzte Meile und Langstreckenlieferungen.",
       icon: <FaTruck size={20} />,
     },
     {
-      name: "Warehousing",
-      desc: "Secure and flexible warehousing solutions for short- and long-term storage.",
+      name: "Lagerhaltung",
+      desc: "Sichere und flexible Lagerlösungen für Kurz- und Langzeitlagerung.",
       icon: <FaWarehouse size={20} />,
     },
     {
-      name: "Customs Clearance",
-      desc: "Smooth customs processing and documentation to keep your shipments moving.",
+      name: "Zollabfertigung",
+      desc: "Reibungslose Zollabwicklung und Dokumentation, damit Ihre Sendungen weiterkommen.",
       icon: <FaClipboardCheck size={20} />,
     },
     {
-      name: "E-commerce Solutions",
-      desc: "Fulfillment and shipping solutions built for e-commerce growth and speed.",
+      name: "E‑Commerce‑Lösungen",
+      desc: "Erfüllungs- und Versandlösungen für das Wachstum und die Geschwindigkeit im E‑Commerce.",
       icon: <FaShoppingCart size={20} />,
     },
   ];
@@ -48,9 +47,9 @@ export default function OurService() {
     <div className="bg-[#EDF0F3] p-4 pt-10 pb-20">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center py-10">
-          <Title>Our services</Title>
+          <Title>Unsere Dienstleistungen</Title>
           <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold uppercase">
-            Efficient and Reliable Shipping with FastGo
+            Effizienter und zuverlässiger Versand mit FastGo
           </div>
         </div>
 
@@ -82,7 +81,7 @@ export default function OurService() {
         <div className="mt-10 flex justify-center">
           <Link to="/services">
             <button className="inline-flex items-center gap-3 bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-md font-semibold shadow-md hover:shadow-lg transition">
-              See All Services
+              Alle Dienstleistungen anzeigen
             </button>
           </Link>
         </div>

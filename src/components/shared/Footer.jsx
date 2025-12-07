@@ -10,8 +10,9 @@ export default function Footer() {
             Ekspress
           </h2>
           <p className="text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
-            At FastGo, we believe in providing our clients with personalized and
-            efficient logistics solutions that meet their unique needs.
+            Bei FastGo glauben wir daran, unseren Kunden personalisierte und
+            effiziente Logistiklösungen zu bieten, die ihren einzigartigen
+            Bedürfnissen entsprechen.
           </p>
         </div>
 
@@ -22,16 +23,16 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-sm">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Startseite</Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/about">Über uns</Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services">Dienstleistungen</Link>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact">Kontakt</Link>
             </li>
           </ul>
         </div>
@@ -43,16 +44,16 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-sm">
             <li className="hover:text-white cursor-pointer transition">
-              Help Center
+              Hilfezentrum
             </li>
             <li className="hover:text-white cursor-pointer transition">
-              Customer Care
+              Kundendienst
             </li>
             <li className="hover:text-white cursor-pointer transition">
-              Privacy Policy
+              Datenschutzrichtlinie
             </li>
             <li className="hover:text-white cursor-pointer transition">
-              Terms & Support
+              Bedingungen & Support
             </li>
           </ul>
         </div>
@@ -60,7 +61,7 @@ export default function Footer() {
         {/* ✅ Subscribe + Social Icons */}
         <div className="space-y-4 text-center md:text-left">
           <h4 className="text-base sm:text-lg font-semibold text-white uppercase">
-            Stay Updated
+            Bleiben Sie auf dem Laufenden
           </h4>
 
           {/* Subscribe Form */}
@@ -69,14 +70,14 @@ export default function Footer() {
               <input
                 type="email"
                 required
-                placeholder="Your email address"
+                placeholder="Ihre E-Mail-Adresse"
                 className="flex-1 min-w-0 bg-transparent text-gray-100 placeholder-gray-500 px-5 py-3 text-sm focus:ring-0 focus:outline-none"
               />
               <button
                 type="submit"
                 className="flex-shrink-0 cursor-pointer bg-yellow-500 hover:bg-yellow-400 text-black px-5 py-3 font-semibold text-sm rounded-full transition-all duration-300"
               >
-                Subscribe
+                Abonnieren
               </button>
             </div>
           </form>
@@ -85,7 +86,7 @@ export default function Footer() {
 
       {/* ✅ Bottom Bar */}
       <div className="border-t border-gray-800 text-center py-4 text-xs sm:text-sm text-gray-500 px-4">
-        © {new Date().getFullYear()} Ekspress. All rights reserved.
+        © {new Date().getFullYear()} Ekspress. Alle Rechte vorbehalten.
       </div>
     </footer>
   );

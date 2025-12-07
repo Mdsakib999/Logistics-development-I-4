@@ -10,14 +10,14 @@ export default function ShippingExperience() {
           <div className="w-full lg:w-1/2 space-y-8 text-center lg:text-left">
             <div>
               <Subtitle>
-                Simplify Your <br /> Shipping Experience
+                Vereinfachen Sie Ihre <br /> Versanderfahrung
               </Subtitle>
             </div>
 
             {/* Feature 1 */}
             <div>
               <h3 className="text-xl sm:text-2xl font-semibold flex items-center justify-center lg:justify-start gap-2">
-                Experienced Professionals
+                Erfahrene Fachleute
                 <span className="text-yellow-400 text-xs sm:text-sm font-bold">
                   01
                 </span>
@@ -33,7 +33,7 @@ export default function ShippingExperience() {
             {/* Feature 2 */}
             <div>
               <h3 className="text-xl sm:text-2xl font-semibold flex items-center justify-center lg:justify-start gap-2">
-                Tailored Solutions
+                Maßgeschneiderte Lösungen
                 <span className="text-yellow-400 text-xs sm:text-sm font-bold">
                   02
                 </span>
@@ -49,7 +49,7 @@ export default function ShippingExperience() {
             {/* Feature 3 */}
             <div>
               <h3 className="text-xl sm:text-2xl font-semibold flex items-center justify-center lg:justify-start gap-2">
-                Efficiency and Timeliness
+                Effizienz und Pünktlichkeit
                 <span className="text-yellow-400 text-xs sm:text-sm font-bold">
                   03
                 </span>
@@ -78,7 +78,7 @@ export default function ShippingExperience() {
                 <FaStar size={18} className="sm:size-[20px] md:size-[22px]" />
               </div>
               <h4 className="text-base sm:text-lg md:text-xl font-semibold">
-                4.8/5 Ratings from Customers
+                4.8/5 Bewertungen von Kunden
               </h4>
               <p className="text-[#808380] text-xs sm:text-sm">
                 Lorem morbi et amet suscipit.

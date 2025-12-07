@@ -11,16 +11,13 @@ export default function Home() {
   return (
     <div>
       <Banner />
-
-      <div>
-        <AboutHome />
-        <OurService />
-        <ShippingExperience />
-        <Experience />
-        <CTA />
-        <Testimonials />
-        <ContactForm />
-      </div>
+      <AboutHome />
+      <OurService />
+      <ShippingExperience />
+      <Experience />
+      <CTA />
+      <Testimonials />
+      <ContactForm />
     </div>
   );
 }
