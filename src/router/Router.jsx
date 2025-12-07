@@ -5,6 +5,7 @@ import Contact from "../pages/Contact/Contact";
 import ServicesPage from "../pages/Services/ServicesPage";
 import AboutPage from "../pages/About/AboutPage";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/services",
         Component: ServicesPage,
+      },
+      {
+        path: "/privacy-policy",
+        Component: PrivacyPolicy,
       },
     ],
   },

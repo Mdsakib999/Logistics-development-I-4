@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <footer className="bg-black text-gray-300">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-7xl mx-auto py-12 px-6 md:px-12">
-        {/* ✅ Company Info */}
         <div className="space-y-3 text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl font-bold text-white uppercase">
             Ekspress
@@ -15,8 +14,6 @@ export default function Footer() {
             Bedürfnissen entsprechen.
           </p>
         </div>
-
-        {/* ✅ Navigation */}
         <div className="space-y-4 text-center">
           <h4 className="text-base sm:text-lg font-semibold text-white uppercase text-center">
             Navigation
@@ -36,8 +33,6 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-
-        {/* ✅ Support (New Column instead of Recent Project) */}
         <div className="space-y-4 text-center">
           <h4 className="text-base sm:text-lg font-semibold text-white uppercase text-center">
             Support
@@ -50,21 +45,17 @@ export default function Footer() {
               Kundendienst
             </li>
             <li className="hover:text-white cursor-pointer transition">
-              Datenschutzrichtlinie
+              <Link to="/privacy-policy">Datenschutzrichtlinie</Link>
             </li>
             <li className="hover:text-white cursor-pointer transition">
               Bedingungen & Support
             </li>
           </ul>
         </div>
-
-        {/* ✅ Subscribe + Social Icons */}
         <div className="space-y-4 text-center md:text-left">
           <h4 className="text-base sm:text-lg font-semibold text-white uppercase">
             Bleiben Sie auf dem Laufenden
           </h4>
-
-          {/* Subscribe Form */}
           <form className="w-full max-w-sm mx-auto md:mx-0">
             <div className="flex items-center bg-gray-900 rounded-full shadow-md overflow-hidden border border-gray-700">
               <input
@@ -84,7 +75,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* ✅ Bottom Bar */}
       <div className="border-t border-gray-800 text-center py-4 text-xs sm:text-sm text-gray-500 px-4">
         © {new Date().getFullYear()} Ekspress. Alle Rechte vorbehalten.
       </div>
