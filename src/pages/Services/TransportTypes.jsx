@@ -17,80 +17,80 @@ export default function TransportTypes() {
   const transportTypes = [
     {
       id: "road",
-      name: "Road Transport",
+      name: "Straßentransport",
       icon: <FaTruck size={24} />,
       image: "https://i.ibb.co.com/XfTb7MXB/Truck.png",
       description:
-        "Our road transport services offer flexible, door-to-door delivery across regions. With a modern fleet and experienced drivers, we ensure timely and secure delivery of your cargo.",
+        "Unsere Straßentransportdienste bieten flexible Tür-zu-Tür-Lieferungen über Regionen hinweg. Mit einer modernen Flotte und erfahrenen Fahrern sorgen wir für die pünktliche und sichere Lieferung Ihrer Fracht.",
       features: [
-        "24/7 real-time tracking",
-        "Temperature-controlled vehicles",
-        "Express and standard delivery options",
-        "Full cargo insurance coverage",
+        "24/7 Echtzeit-Tracking",
+        "Temperaturgeführte Fahrzeuge",
+        "Express- und Standardlieferoptionen",
+        "Voller Frachtversicherungsschutz",
       ],
       stats: {
-        capacity: "Up to 40 tons",
-        coverage: "Nationwide",
-        delivery: "Same day available",
+        capacity: "Bis zu 40 Tonnen",
+        coverage: "Bundesweit",
+        delivery: "Gleicher Tag möglich",
       },
     },
     {
       id: "sea",
-      name: "Sea Freight",
+      name: "Seefracht",
       icon: <FaShip size={24} />,
       image:
         "https://i.ibb.co.com/nMgwgdqV/pexels-rukiyeoagaoglu-50613294-34162603.jpg",
       description:
-        "Cost-effective ocean freight solutions for international shipping. We handle FCL and LCL shipments with complete customs clearance and documentation support.",
+        "Kosteneffiziente Seefrachtlösungen für internationalen Versand. Wir kümmern uns um FCL- und LCL-Sendungen mit vollständiger Zollabfertigung und Dokumentationsunterstützung.",
       features: [
-        "Full Container Load (FCL) & Less than Container Load (LCL)",
-        "Port-to-port and door-to-door services",
-        "Customs clearance assistance",
-        "Competitive shipping rates",
+        "Vollcontainerladung (FCL) & Teilladung (LCL)",
+        "Hafen-zu-Hafen und Tür-zu-Tür Dienste",
+        "Unterstützung bei der Zollabfertigung",
+        "Wettbewerbsfähige Versandraten",
       ],
       stats: {
-        capacity: "Up to 10,000 TEU",
-        coverage: "Global ports",
-        delivery: "10-45 days",
+        capacity: "Bis zu 10.000 TEU",
+        coverage: "Globale Häfen",
+        delivery: "10-45 Tage",
       },
     },
     {
       id: "rail",
-      name: "Rail Logistics",
+      name: "Schienenlogistik",
       icon: <FaTrain size={24} />,
       image: "https://i.ibb.co.com/CstyLk7C/gg.jpg",
       description:
-        "Eco-friendly and cost-efficient rail freight services for bulk shipments. Perfect for long-distance transportation with reduced carbon footprint.",
+        "Umweltfreundliche und kosteneffiziente Schienengüterverkehrsdienste für Massenguttransporte. Perfekt für Langstreckentransporte mit verringertem CO2-Fußabdruck.",
       features: [
-        "Intermodal container shipping",
-        "Bulk cargo handling",
-        "Eco-friendly transport solution",
-        "Scheduled and reliable departures",
+        "Intermodaler Containerversand",
+        "Massengutumschlag",
+        "Umweltfreundliche Transportlösung",
+        "Fahrplanmäßige und zuverlässige Abfahrten",
       ],
       stats: {
-        capacity: "Up to 5,000 tons",
-        coverage: "Continental routes",
-        delivery: "5-15 days",
+        capacity: "Bis zu 5.000 Tonnen",
+        coverage: "Kontinentale Routen",
+        delivery: "5-15 Tage",
       },
     },
     {
       id: "air",
-      name: "Air Freight",
+      name: "Luftfracht",
       icon: <FaPlane size={24} />,
       image:
         "https://images.unsplash.com/photo-1483375801503-374c5f660610?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070",
       description:
-        "Fast and reliable air cargo services for urgent shipments. We work with major airlines to ensure your time-sensitive goods arrive on schedule worldwide.",
+        "Schnelle und zuverlässige Luftfrachtdienste für dringende Sendungen. Wir arbeiten mit großen Fluggesellschaften zusammen, um sicherzustellen, dass Ihre zeitkritischen Waren weltweit pünktlich ankommen.",
       features: [
-        "Next-day delivery options",
-        "Priority handling for urgent cargo",
-        "Pharmaceutical and perishable goods certified",
-        "Global airport network",
+        "Lieferoptionen am nächsten Tag",
+        "Prioritätsabwicklung für dringende Fracht",
+        "Zertifiziert für Pharmazeutika und verderbliche Waren",
+        "Globales Flughafennetzwerk",
       ],
       stats: {
-        capacity: "Up to 100 tons",
-        coverage: "500+ airports",
-        delivery: "1-5 days",
+        capacity: "Bis zu 100 Tonnen",
+        coverage: "500+ Flughäfen",
+        delivery: "1-5 Tage",
       },
     },
   ];
@@ -102,10 +102,10 @@ export default function TransportTypes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <Title>Transport Solutions</Title>
+          <Title>Transportlösungen</Title>
           <Subtitle>
-            Comprehensive logistics services across
-            <span className="text-yellow-500"> all transport modes</span>
+            Umfassende Logistikdienstleistungen über
+            <span className="text-yellow-500"> alle Transportarten</span>
           </Subtitle>
         </div>
 
@@ -169,25 +169,25 @@ export default function TransportTypes() {
                 <p className="text-2xl font-bold text-yellow-500">
                   {activeData.stats.capacity}
                 </p>
-                <p className="text-sm text-gray-400 mt-1">Capacity</p>
+                <p className="text-sm text-gray-400 mt-1">Kapazität</p>
               </div>
               <div className="text-center">
                 <p className="text-2xl font-bold text-yellow-500">
                   {activeData.stats.coverage}
                 </p>
-                <p className="text-sm text-gray-400 mt-1">Coverage</p>
+                <p className="text-sm text-gray-400 mt-1">Abdeckung</p>
               </div>
               <div className="text-center">
                 <p className="text-2xl font-bold text-yellow-500">
                   {activeData.stats.delivery}
                 </p>
-                <p className="text-sm text-gray-400 mt-1">Delivery</p>
+                <p className="text-sm text-gray-400 mt-1">Lieferung</p>
               </div>
             </div>
 
             {/* Features */}
             <div>
-              <h3 className="font-semibold text-lg mb-3">Key Features</h3>
+              <h3 className="font-semibold text-lg mb-3">Hauptmerkmale</h3>
               <ul className="space-y-2">
                 {activeData.features.map((feature, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -206,7 +206,7 @@ export default function TransportTypes() {
                 className="inline-flex items-center justify-center px-6 py-3 bg-yellow-400 text-black font-semibold rounded-xl shadow-sm hover:bg-yellow-500 transform transition duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300"
                 aria-label="Get a quote"
               >
-                Get a Quote
+                Angebot einholen
               </button>
 
               {/* Phone / Contact */}

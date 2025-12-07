@@ -46,8 +46,8 @@ export default function Navbar() {
             <span className="text-dark">EKSPRESS@MAIL.COM</span>
             <span>+1 (555) 000-0000</span>
           </div>
-          <button className="bg-yellow-400 text-black w-[120px] sm:w-[150px] h-[40px] sm:h-[44px] rounded hover:bg-yellow-500 text-[14px] sm:text-[16px]">
-            GET QUOTE
+          <button className="bg-yellow-400 text-black hover:bg-gray-900 hover:text-yellow-500 duration-300 px-5 py-2 rounded-md">
+            ANGEBOT ANFORDERN
           </button>
         </nav>
       </div>
@@ -61,10 +61,38 @@ export default function Navbar() {
           </div>
           {/* Desktop nav */}
           <div className="hidden md:flex space-x-6 text-[14px] sm:text-[16px]">
-            <NavLink to="/" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2 "}>HOME</NavLink>
-            <NavLink to="/about" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2"}>ABOUT US</NavLink>
-            <NavLink to="/services" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2"}>SERVICES</NavLink>
-            <NavLink to="/contact" className={({ isActive }) => isActive ? "text-yellow-400" : "hover:border-b-2"}>CONTACT US</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:border-b-2 "
+              }
+            >
+              Startseite
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:border-b-2"
+              }
+            >
+              ÜBER UNS
+            </NavLink>
+            <NavLink
+              to="/services"
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:border-b-2"
+              }
+            >
+              DIENSTLEISTUNGEN
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:border-b-2"
+              }
+            >
+              KONTAKT
+            </NavLink>
           </div>
 
           {/* Mobile toggle */}
@@ -72,17 +100,53 @@ export default function Navbar() {
             className="md:hidden text-white relative z-50"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <AiOutlineClose size={28} /> : <AiOutlineMenu size={28} />}
+            {isOpen ? (
+              <AiOutlineClose size={28} />
+            ) : (
+              <AiOutlineMenu size={28} />
+            )}
           </button>
         </nav>
 
         {/* Mobile dropdown */}
         {isOpen && (
           <div className="md:hidden bg-black text-white flex flex-col space-y-4 p-4 absolute top-[94px] left-0 w-full z-40">
-            <NavLink to="/" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>HOME</NavLink>
-            <NavLink to="/about" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>ABOUT US</NavLink>
-            <NavLink to="/services" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>SERVICES</NavLink>
-            <NavLink to="/contact" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? "text-yellow-400" : "hover:text-yellow-400"}>CONTACT US</NavLink>
+            <NavLink
+              to="/"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:text-yellow-400"
+              }
+            >
+              Startseite
+            </NavLink>
+            <NavLink
+              to="/about"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:text-yellow-400"
+              }
+            >
+              ÜBER UNS
+            </NavLink>
+            <NavLink
+              to="/services"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:text-yellow-400"
+              }
+            >
+              DIENSTLEISTUNGEN
+            </NavLink>
+            <NavLink
+              to="/contact"
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? "text-yellow-400" : "hover:text-yellow-400"
+              }
+            >
+              KONTAKT
+            </NavLink>
           </div>
         )}
       </div>

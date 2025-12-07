@@ -5,18 +5,18 @@ export default function Choose() {
   const features = [
     {
       number: "1.",
-      title: "Custom Clearance",
-      desc: "Explore our comprehensive range of chartering services. Explore our comprehensive range of chartering services.",
+      title: "Zollabfertigung",
+      desc: "Entdecken Sie unser umfassendes Angebot an Charterdiensten. Entdecken Sie unser umfassendes Angebot an Charterdiensten.",
     },
     {
       number: "2.",
-      title: "Storage & Packaging",
-      desc: "Explore our comprehensive range of chartering services. Explore our comprehensive range of chartering services.",
+      title: "Lagerung & Verpackung",
+      desc: "Entdecken Sie unser umfassendes Angebot an Charterdiensten. Entdecken Sie unser umfassendes Angebot an Charterdiensten.",
     },
     {
       number: "3.",
-      title: "Transport Brokerage",
-      desc: "Explore our comprehensive range of chartering services. Explore our comprehensive range of chartering services.",
+      title: "Transportvermittlung",
+      desc: "Entdecken Sie unser umfassendes Angebot an Charterdiensten. Entdecken Sie unser umfassendes Angebot an Charterdiensten.",
     },
   ];
 
@@ -26,20 +26,21 @@ export default function Choose() {
       <div className="flex flex-col lg:flex-row justify-between items-center gap-12 ">
         {/* Left Content */}
         <div className="w-full lg:w-6/12 space-y-5 text-center lg:text-left">
-          <Title>WHY CHOOSE US</Title>
-          <Subtitle>Seamless service for a connected world</Subtitle>
+          <Title>WARUM UNS WÄHLEN</Title>
+          <Subtitle>Nahtloser Service für eine vernetzte Welt</Subtitle>
           <p className="text-sm md:text-base text-[#5C6C7B] max-w-xl mx-auto lg:mx-0">
-            At FastGo, we believe in providing our clients with personalized and
-            efficient logistics solutions that meet their unique needs. With
-            years of experience and a team of experts, we are dedicated to
-            empowering your business with seamless shipping experiences.
+            Bei FastGo glauben wir daran, unseren Kunden personalisierte und
+            effiziente Logistiklösungen zu bieten, die ihren einzigartigen
+            Bedürfnissen entsprechen. Mit jahrelanger Erfahrung und einem Team
+            von Experten sind wir bestrebt, Ihr Unternehmen mit nahtlosen
+            Versanderfahrungen zu stärken.
           </p>
         </div>
 
         {/* Right Image */}
         <div className="w-full lg:w-5/12 flex justify-center">
           <img
-            src="https://i.ibb.co.com/PZr9jDXv/wireframe-logistics-icons-1.png"
+            src="https://i.ibb.co.com/PZr9jDXv/wireframe-Logistik-icons-1.png"
             alt="why choose us"
             className="rounded-2xl w-[250px] sm:w-[300px] md:w-[350px] lg:w-[380px] h-auto transition hover:-rotate-2 duration-1000"
           />

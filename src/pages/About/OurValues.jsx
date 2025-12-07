@@ -4,17 +4,17 @@ import Subtitle from "../../utils/Subtitle";
 const values = [
   {
     icon: Award,
-    name: "Quality",
+    name: "Qualität",
     desc: "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
   },
   {
     icon: Shield,
-    name: "Commitment",
+    name: "Engagement",
     desc: "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
   },
   {
     icon: Users,
-    name: "Teamwork",
+    name: "Teamarbeit",
     desc: "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
   },
   {
@@ -24,12 +24,12 @@ const values = [
   },
   {
     icon: Star,
-    name: "Leadership",
+    name: "Führung",
     desc: "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
   },
   {
     icon: Eye,
-    name: "Openness",
+    name: "Offenheit",
     desc: "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
   },
 ];
@@ -42,8 +42,8 @@ export default function OurValuesSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mb-10">
           <div>
             <Subtitle>
-              The values that drive <br className="hidden md:block" />
-              everything we do<span className="text-yellow-400">.</span>
+              Die Werte, die alles antreiben, <br className="hidden md:block" />
+              was wir tun<span className="text-yellow-400">.</span>
             </Subtitle>
           </div>
 
