@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-7xl mx-auto py-12 px-6 md:px-12">
         <div className="space-y-3 text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl font-bold text-white uppercase">
-            Ekspress
+            Intern. Transporte
           </h2>
           <p className="text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
             Bei FastGo glauben wir daran, unseren Kunden personalisierte und
@@ -76,7 +76,8 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-800 text-center py-4 text-xs sm:text-sm text-gray-500 px-4">
-        © {new Date().getFullYear()} Ekspress. Alle Rechte vorbehalten.
+        © {new Date().getFullYear()} Intern. Transporte. Alle Rechte
+        vorbehalten.
       </div>
     </footer>
   );

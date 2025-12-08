@@ -37,9 +37,9 @@ const Experience = () => {
                 <span className="opacity-80 block">
                   Rufen Sie uns jederzeit an
                 </span>
-                <span className="text-black font-semibold block">
+                {/* <span className="text-black font-semibold block">
                   +1 (555) 000-0000
-                </span>
+                </span> */}
               </p>
             </div>
           </div>
