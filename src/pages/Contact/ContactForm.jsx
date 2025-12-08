@@ -19,10 +19,10 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit(onSubmit)} className="mt-16 space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
-          <label className="block mb-1">Your Name</label>
+          <label className="block mb-1">Ihr Name</label>
           <input
             type="text"
-            {...register("name", { required: "Name is required" })}
+            {...register("name", { required: "Name ist erforderlich" })}
             className="w-full border-b focus:outline-none py-2"
           />
           {errors.name && (
@@ -31,14 +31,14 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label className="block mb-1">Email Address</label>
+          <label className="block mb-1">E-Mail-Adresse</label>
           <input
             type="email"
             {...register("email", {
-              required: "Email is required",
+              required: "E-Mail ist erforderlich",
               pattern: {
                 value: /^\S+@\S+$/i,
-                message: "Invalid email format",
+                message: "Ungültiges E-Mail-Format",
               },
             })}
             className="w-full border-b focus:outline-none py-2"
@@ -49,7 +49,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label className="block mb-1">Phone Number (optional)</label>
+          <label className="block mb-1">Telefonnummer (optional)</label>
           <input
             type="tel"
             {...register("phone")}
@@ -60,9 +60,9 @@ export default function ContactForm() {
 
       {/* Message */}
       <div>
-        <label className="block mb-1">Message</label>
+        <label className="block mb-1">Nachricht</label>
         <textarea
-          {...register("message", { required: "Message is required" })}
+          {...register("message", { required: "Nachricht ist erforderlich" })}
           rows="3"
           className="w-full border-b focus:outline-none py-2"
         ></textarea>
@@ -77,7 +77,7 @@ export default function ContactForm() {
           type="button"
           className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-md hover:bg-gray-800 transition"
         >
-          Leave us a Message <FaArrowRight />
+          Hinterlassen Sie uns eine Nachricht <FaArrowRight />
         </button>
       </Link>
     </form>

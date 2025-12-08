@@ -22,20 +22,21 @@ const ContactForm = () => {
           {/* Left: Contact Form */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <Subtitle>Get in Touch</Subtitle>
+              <Subtitle>Kontaktieren Sie uns</Subtitle>
               <p className="text-gray-600">
-                Have questions? We'd love to hear from you. Send us a message
-                and we'll respond as soon as possible.
+                Haben Sie Fragen? Wir würden uns freuen, von Ihnen zu hören.
+                Senden Sie uns eine Nachricht und wir werden so schnell wie
+                möglich antworten.
               </p>
             </div>
 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block mb-1">Your Name</label>
+                  <label className="block mb-1">Ihr Name</label>
                   <input
                     type="text"
-                    {...register("name", { required: "Name is required" })}
+                    {...register("name", { required: "Name ist erforderlich" })}
                     className="w-full border-b focus:outline-none py-2"
                   />
                   {errors.name && (
@@ -46,14 +47,14 @@ const ContactForm = () => {
                 </div>
 
                 <div>
-                  <label className="block mb-1">Email Address</label>
+                  <label className="block mb-1">E-Mail-Adresse</label>
                   <input
                     type="email"
                     {...register("email", {
-                      required: "Email is required",
+                      required: "E-Mail ist erforderlich",
                       pattern: {
                         value: /^\S+@\S+$/i,
-                        message: "Invalid email format",
+                        message: "Ungültiges E-Mail-Format",
                       },
                     })}
                     className="w-full border-b focus:outline-none py-2"
@@ -67,7 +68,7 @@ const ContactForm = () => {
               </div>
 
               <div>
-                <label className="block mb-1">Phone Number (optional)</label>
+                <label className="block mb-1">Telefonnummer (optional)</label>
                 <input
                   type="tel"
                   {...register("phone")}
@@ -76,9 +77,11 @@ const ContactForm = () => {
               </div>
 
               <div>
-                <label className="block mb-1">Message</label>
+                <label className="block mb-1">Nachricht</label>
                 <textarea
-                  {...register("message", { required: "Message is required" })}
+                  {...register("message", {
+                    required: "Nachricht ist erforderlich",
+                  })}
                   rows="3"
                   className="w-full border-b focus:outline-none py-2"
                 ></textarea>
@@ -93,7 +96,7 @@ const ContactForm = () => {
                 type="submit"
                 className="flex items-center gap-2 bg-black text-white px-6 py-3 rounded-md hover:bg-gray-800 transition"
               >
-                Leave us a Message <FaArrowRight />
+                Hinterlassen Sie uns eine Nachricht <FaArrowRight />
               </button>
             </form>
           </div>

@@ -1,5 +1,4 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import Subtitle from "../../utils/Subtitle";
 import Title from "../../utils/Title";
 import ContactForm from "./ContactForm";
 import ContactLocation from "./ContactLocation";
@@ -10,8 +9,10 @@ export default function Contact() {
       <div className="flex justify-between items-center">
         {/* Left section */}
         <div className="w-2/3 space-y-3">
-          <Title>Get started</Title>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold uppercase text-left">Get in touch with us. We're here to assist you.</h1>
+          <Title>Loslegen</Title>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold uppercase text-left">
+            Kontaktieren Sie uns. Wir sind hier, um Ihnen zu helfen.
+          </h1>
         </div>
 
         {/* Right section - Social icons */}

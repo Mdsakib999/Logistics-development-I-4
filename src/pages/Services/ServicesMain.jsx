@@ -7,49 +7,49 @@ export default function ServicesSection() {
       image:
         "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: <FaTruck size={20} />,
-      title: "Fast Delivery",
+      title: "Schnelle Lieferung",
       description:
-        "Quick and reliable delivery services tailored to your needs. We ensure timely shipping for your satisfaction.",
+        "Schnelle und zuverlässige Lieferdienste, die auf Ihre Bedürfnisse zugeschnitten sind. Wir sorgen für pünktlichen Versand für Ihre Zufriedenheit.",
     },
     {
       image:
         "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: <FaBoxOpen size={20} />,
-      title: "Secure Packaging",
+      title: "Sichere Verpackung",
       description:
-        "Your goods are packed with care and precision to guarantee safety and minimize damage risks.",
+        "Ihre Waren werden mit Sorgfalt und Präzision verpackt, um Sicherheit zu gewährleisten und Risiken zu minimieren.",
     },
     {
       image:
         "https://images.unsplash.com/flagged/photo-1555685460-1d9cf532761b?q=80&w=2573&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: <FaPlane size={20} />,
-      title: "International Shipping",
+      title: "Internationaler Versand",
       description:
-        "Expanding your reach with hassle-free global shipping services that you can depend on.",
+        "Erweitern Sie Ihre Reichweite mit problemlosen globalen Versanddiensten, auf die Sie sich verlassen können.",
     },
     {
       image:
         "https://plus.unsplash.com/premium_photo-1681426730828-bfee2d13861d?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: <FaWarehouse size={20} />,
-      title: "Storage Solutions",
+      title: "Lagerlösungen",
       description:
-        "Flexible and secure storage options for your goods, tailored to short-term and long-term needs.",
+        "Flexible und sichere Lageroptionen für Ihre Waren, zugeschnitten auf kurz- und langfristige Bedürfnisse.",
     },
     {
       image:
         "https://images.unsplash.com/photo-1607273685680-6bd976c5a5ce?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: <FaTruck size={20} />,
-      title: "Fast Delivery (Extra)",
+      title: "Schnelle Lieferung (Extra)",
       description:
-        "Quick and reliable delivery services tailored to your needs. We ensure timely shipping for your satisfaction.",
+        "Schnelle und zuverlässige Lieferdienste, die auf Ihre Bedürfnisse zugeschnitten sind. Wir sorgen für pünktlichen Versand für Ihre Zufriedenheit.",
     },
     {
       image:
         "https://images.unsplash.com/photo-1620455800201-7f00aeef12ed?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: <FaBoxOpen size={20} />,
-      title: "Secure Packaging (Extra)",
+      title: "Sichere Verpackung (Extra)",
       description:
-        "Your goods are packed with care and precision to guarantee safety and minimize damage risks.",
+        "Ihre Waren werden mit Sorgfalt und Präzision verpackt, um Sicherheit zu gewährleisten und Risiken zu minimieren.",
     },
   ];
 
@@ -58,9 +58,9 @@ export default function ServicesSection() {
       <div className="max-w-7xl mx-auto px-5 py-16">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <Title>Our Services</Title>
+          <Title>Unsere Dienstleistungen</Title>
           <div className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold uppercase text-center">
-            Efficient and Reliable Shipping with FastGo
+            Effizienter und zuverlässiger Versand mit FastGo
           </div>
         </div>
 

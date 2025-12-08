@@ -14,30 +14,30 @@ import Title from "../../utils/Title";
 
 export default function AboutHome() {
   const stats = [
-    { icon: Package, value: 10, label: "Deliveries", suffix: "K+" },
-    { icon: Users, value: 500, label: "Happy Clients", suffix: "+" },
-    { icon: Truck, value: 50, label: "Vehicles", suffix: "+" },
-    { icon: Award, value: 647, label: "Awards Won", suffix: "+" },
+    { icon: Package, value: 10, label: "Lieferungen", suffix: "K+" },
+    { icon: Users, value: 500, label: "Zufriedene Kunden", suffix: "+" },
+    { icon: Truck, value: 50, label: "Fahrzeuge", suffix: "+" },
+    { icon: Award, value: 647, label: "Gewonnene Auszeichnungen", suffix: "+" },
   ];
 
   const features = [
     {
       icon: Shield,
-      title: "Expertise & Experience",
+      title: "Fachwissen & Erfahrung",
       description:
-        "Years of industry knowledge delivering excellence in every shipment",
+        "Jahrelanges Branchenwissen, das Exzellenz bei jeder Lieferung garantiert",
     },
     {
       icon: Award,
-      title: "Committed to Quality",
+      title: "Engagement für Qualität",
       description:
-        "Premium service standards that exceed expectations consistently",
+        "Hochwertige Servicestandards, die die Erwartungen stets übertreffen",
     },
     {
       icon: Clock,
-      title: "Comprehensive Services",
+      title: "Umfassende Dienstleistungen",
       description:
-        "End-to-end logistics solutions tailored to your business needs",
+        "Ganzheitliche Logistiklösungen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind",
     },
   ];
 
@@ -48,16 +48,20 @@ export default function AboutHome() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Left: Text Content */}
           <div className="space-y-6">
-            <Title>About FastGo</Title>
+            <Title>Über FastGo</Title>
             <Subtitle>
-              Empowering Your Business with{" "}
-              <span className="text-yellow-400"> Tailored Logistics</span>
+              Stärken Sie Ihr Unternehmen mit
+              <span className="text-yellow-400">
+                {" "}
+                maßgeschneiderten Logistiklösungen
+              </span>
             </Subtitle>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              At FastGo, we believe in providing our clients with personalized
-              and efficient logistics solutions that meet their unique needs.
-              With years of experience and a team of experts.
+              Bei FastGo glauben wir daran, unseren Kunden persönliche und
+              effiziente Logistiklösungen zu bieten, die ihren individuellen
+              Bedürfnissen entsprechen. Mit jahrelanger Erfahrung und einem Team
+              von Experten.
             </p>
 
             {/* Stats Row */}
@@ -79,7 +83,7 @@ export default function AboutHome() {
 
             <Link to="/about">
               <button className="group bg-yellow-400 cursor-pointer text-white px-4 md:px-8 py-3 md:py-4 rounded-md font-semibold flex items-center gap-2 hover:shadow-lg">
-                Learn More About Us
+                Erfahren Sie mehr über uns
                 <ArrowRight
                   className="group-hover:translate-x-1 transition-transform"
                   size={20}
@@ -93,7 +97,7 @@ export default function AboutHome() {
             <div className="relative h-[450px] rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src="https://i.ibb.co.com/RkKfDVB3/Frame-1000007304-1.png"
-                alt="Logistics"
+                alt="Logistik"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -107,7 +111,7 @@ export default function AboutHome() {
                   <Countup>647</Countup>+
                 </div>
                 <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
-                  Awards Winning
+                  Ausgezeichnete Leistungen
                 </div>
               </div>
             </div>

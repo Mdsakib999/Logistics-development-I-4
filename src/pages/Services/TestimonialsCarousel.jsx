@@ -5,26 +5,26 @@ import Subtitle from "../../utils/Subtitle";
 
 const testimonials = [
   {
-    name: "John Doe, Business Owner",
-    text: "I have been using FastGo cargo logistic & transportation services for over a year now and I am extremely satisfied with their service. They are efficient, reliable, and always deliver on time.",
+    name: "John Doe, Geschäftsinhaber",
+    text: "Ich nutze FastGo Cargo Logistik- & Transportdienste nun seit über einem Jahr und bin äußerst zufrieden mit ihrem Service. Sie sind effizient, zuverlässig und liefern immer pünktlich.",
     rating: 5,
     image: "https://i.ibb.co.com/603111dW/Image-3.png",
   },
   {
-    name: "Jane Smith, Freelance Consultant",
-    text: "FastGo has transformed the way I handle my logistics. Their service is reliable, efficient, and always on time.",
+    name: "Jane Smith, Freiberuflicher Berater",
+    text: "FastGo hat die Art und Weise, wie ich meine Logistik handhabe, verändert. Ihr Service ist zuverlässig, effizient und immer pünktlich.",
     rating: 4,
     image: "https://i.ibb.co.com/dwtFQQSM/pexels-chanaka-906494.jpg",
   },
   {
     name: "Michael Johnson, CEO",
-    text: "We’ve been using FastGo for over a year now, and I’m truly impressed. They always deliver on their promises.",
+    text: "Wir nutzen FastGo seit über einem Jahr und ich bin wirklich beeindruckt. Sie halten immer, was sie versprechen.",
     rating: 5,
     image: "https://i.ibb.co.com/RkKfDVB3/Frame-1000007304-1.png",
   },
   {
-    name: "David Lee, Entrepreneur",
-    text: "The FastGo team is professional and dependable. I recommend them to anyone in need of logistics solutions.",
+    name: "David Lee, Unternehmer",
+    text: "Das FastGo-Team ist professionell und zuverlässig. Ich empfehle sie jedem, der Logistiklösungen benötigt.",
     rating: 4,
     image: "https://i.ibb.co.com/BHr1YjL7/Image.png",
   },
@@ -49,11 +49,11 @@ export default function TestimonialsCarousel() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="flex justify-center">
-            <Subtitle>What Our Clients Say</Subtitle>
+            <Subtitle>Was unsere Kunden sagen</Subtitle>
           </div>
           <p className="text-gray-600 text-sm sm:text-base mt-3">
-            Real feedback from clients who trust us with their logistics and
-            shipping needs.
+            Echtes Feedback von Kunden, die uns ihre Logistik- und
+            Versandanforderungen anvertrauen.
           </p>
         </div>
 

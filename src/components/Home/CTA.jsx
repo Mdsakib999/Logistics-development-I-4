@@ -9,24 +9,25 @@ export default function CTA() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Text */}
           <div className="space-y-8 text-white">
-            <Subtitle>Logistics communication rethought.</Subtitle>
+            <Subtitle>Logistikkommunikation neu gedacht.</Subtitle>
 
             <p className="max-w-xl text-lg text-gray-400 leading-relaxed">
-              FastGo helps you get the most from every shipment — real-time
-              tracking, automatic customer updates, and seamless handoffs so
-              your deliveries arrive on time and your customers stay informed.
+              FastGo hilft Ihnen, das Beste aus jeder Sendung herauszuholen –
+              Echtzeit-Tracking, automatische Kundenupdates und nahtlose
+              Übergaben, damit Ihre Lieferungen pünktlich ankommen und Ihre
+              Kunden informiert bleiben.
             </p>
 
             <div className="flex items-center gap-4">
               <Link to="/signup">
                 <button className="inline-flex items-center justify-center px-6 py-3 rounded-md border border-gray-200 text-gray-800 bg-white shadow-sm hover:shadow-md transition">
-                  Try FastGo for free
+                  FastGo kostenlos testen
                 </button>
               </Link>
 
               <Link to="/demo">
                 <button className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-yellow-400 text-white font-semibold shadow hover:shadow-lg transition">
-                  Book a demo
+                  Demo buchen
                   <ArrowRight className="ml-3" size={18} />
                 </button>
               </Link>

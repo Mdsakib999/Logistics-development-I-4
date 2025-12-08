@@ -6,32 +6,32 @@ import Title from "../../utils/Title";
 const testimonials = [
   {
     name: "John Doe",
-    title: "Chief Executive, RexoIT",
-    text: "I have been using FastGo cargo logistics - they are efficient, reliable, and always deliver on time. Highly recommended for any business needs.",
+    title: "Geschäftsführer, RexoIT",
+    text: "Ich nutze FastGo Cargo Logistik – sie sind effizient, zuverlässig und liefern immer pünktlich. Sehr empfehlenswert für alle geschäftlichen Anforderungen.",
     rating: 5,
   },
   {
     name: "David Lee",
-    title: "Entrepreneur",
-    text: "The FastGo team is professional and dependable. I recommend them to anyone in need of logistics solutions.",
+    title: "Unternehmer",
+    text: "Das FastGo-Team ist professionell und zuverlässig. Ich empfehle sie jedem, der Logistiklösungen benötigt.",
     rating: 5,
   },
   {
     name: "Jane Smith",
-    title: "Freelance Consultant",
-    text: "FastGo has transformed the way I handle my logistics. Their service is reliable, efficient, and always on time.",
+    title: "Freiberuflicher Berater",
+    text: "FastGo hat die Art und Weise, wie ich meine Logistik handhabe, verändert. Ihr Service ist zuverlässig, effizient und immer pünktlich.",
     rating: 5,
   },
   {
     name: "Michael Johnson",
     title: "CEO, Tech Innovations",
-    text: "We've been using FastGo for over a year now, and I'm truly impressed. They always deliver on their promises.",
+    text: "Wir nutzen FastGo seit über einem Jahr und ich bin wirklich beeindruckt. Sie halten immer, was sie versprechen.",
     rating: 5,
   },
   {
     name: "Sarah Williams",
-    title: "Operations Manager",
-    text: "Outstanding service! FastGo handles our international shipments with care and precision. Never had any issues.",
+    title: "Betriebsleiter",
+    text: "Hervorragender Service! FastGo behandelt unsere internationalen Sendungen mit Sorgfalt und Präzision. Hatte nie Probleme.",
     rating: 5,
   },
 ];
@@ -43,10 +43,12 @@ export default function Testimonials() {
         {/* Header Section */}
         <div className="mb-12 lg:mb-16 flex text-center justify-center">
           <div>
-            <Title>Testimonials</Title>
-            <Subtitle>What Our Clients Say</Subtitle>
+            <Title>Kundenstimmen</Title>
+            <Subtitle>Was unsere Kunden sagen</Subtitle>
             {/* text-gray-600 text-base sm:text-lg */}
-            <p className="text-gray-600 text-base sm:text-lg opacity-75">Don't just take our word for it..</p>
+            <p className="text-gray-600 text-base sm:text-lg opacity-75">
+              Verlassen Sie sich nicht nur auf unser Wort..
+            </p>
           </div>
         </div>
       </div>
