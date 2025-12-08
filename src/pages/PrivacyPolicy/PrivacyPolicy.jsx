@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -6,16 +6,14 @@ const PrivacyPolicy = () => {
   }, []);
 
   return (
-    <div className="p-6 md:max-w-5xl mx-auto pt-20">
-      {/* Impressum Section */}
+    <div className="p-6 md:max-w-7xl mx-auto pt-20">
       <section className="mb-10">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-8">
-          Impressum
+          Intern. Transporte
         </h1>
         <p className="mb-5 text-base sm:text-lg">
-          <strong>Spedition Bernhard GmbH</strong>
+          <strong>Schloßstr. 5, 92364 Deining</strong>
           <br />
-          Boschstr. 4 <br /> 67304 Eisenberg
           <br />
         </p>
 
@@ -44,13 +42,13 @@ const PrivacyPolicy = () => {
 					</a> */}
           <br />
           <strong>E-Mail: </strong>
-          <a href="mailto:transport@bernhardlogistik.de" className="">
-            transport@bernhardlogistik.de
+          <a href="mailto:schaeferei.schenk@t-online.de" className="">
+            schaeferei.schenk@t-online.de
           </a>
         </p>
 
         <p className="mb-2 text-base sm:text-lg">
-          Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE192254731
+          Umsatzsteuer-Identifikationsnummer gemäß § 27 a UStG: DE223233155
         </p>
 
         {/* <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2">
@@ -94,8 +92,8 @@ const PrivacyPolicy = () => {
 					</a> */}
           <br />
           <strong>E-Mail: </strong>
-          <a href="mailto:transport@bernhardlogistik.de" className="">
-            transport@bernhardlogistik.de
+          <a href="mailto:schaeferei.schenk@t-online.de" className="">
+            schaeferei.schenk@t-online.de
           </a>
           <br />
         </p>
