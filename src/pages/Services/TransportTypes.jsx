@@ -203,7 +203,7 @@ export default function TransportTypes() {
               {/* Primary CTA */}
               <button
                 type="button"
-                className="inline-flex items-center justify-center px-6 py-3 bg-yellow-400 text-black font-semibold rounded-xl shadow-sm hover:bg-yellow-500 transform transition duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300"
+                className="inline-flex items-center justify-center px-6 py-3 bg-yellow-400 text-white font-semibold rounded-lg shadow-sm hover:bg-yellow-500 transform transition duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300"
                 aria-label="Get a quote"
               >
                 Get a Quote
@@ -212,15 +212,12 @@ export default function TransportTypes() {
               {/* Phone / Contact */}
               <a
                 href="tel:+15550000000"
-                className="inline-flex justify-center  items-center  px-4 py-2 rounded-lg bg-white border border-gray-200 hover:bg-yellow-50 transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-200"
+                className="inline-flex justify-center  items-center px-6 py-3 rounded-lg bg-white border border-gray-200 hover:bg-yellow-50 transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-200"
               >
-                <LuPhoneCall
-                  size={24}
-                  className="text-yellow-500 flex-shrink-0 "
-                />
+                
                 <div className="text-sm sm:text-base leading-tight flex flex-col justify-center border">
                   <span className="text-black font-semibold">
-                    +1 (555) 000-0000
+                    Contact
                   </span>
                 </div>
               </a>

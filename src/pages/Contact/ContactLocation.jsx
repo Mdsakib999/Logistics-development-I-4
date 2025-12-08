@@ -23,31 +23,42 @@ export default function ContactLocation() {
     <div className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold uppercase text-center md:text-left pb-7">
-          Location
+          Get in touch
         </h1>
 
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">
           {/* Left Content */}
           <div className="w-full lg:w-1/2 space-y-8 text-center md:text-left">
-            {features.map((feature, index) => (
-              <div
-                key={index}
-                className="w-full flex flex-col sm:flex-row items-center sm:items-start gap-3"
+            <div className="w-full flex flex-col sm:flex-row items-center sm:items-start gap-3"
               >
                 <IoLocationSharp size={44} className="text-yellow-500" />
                 <div>
                   <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                    {feature.title}
+                    Address
                   </h3>
                   <p className="text-[#808380] text-sm sm:text-base mt-2">
-                    {feature.description}
+                    Gruenhainer Strasse 30, 08340 Schwarzenberg
                   </p>
-                  {index !== features.length - 1 && (
+
                     <hr className="mt-4 border-[#333]" />
-                  )}
+
                 </div>
-              </div>
-            ))}
+            </div>
+            <div className="w-full flex flex-col sm:flex-row items-center sm:items-start gap-3"
+              >
+                <IoLocationSharp size={44} className="text-yellow-500" />
+                <div>
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
+                    Email
+                  </h3>
+                  <p className="text-[#808380] text-sm sm:text-base mt-2">
+                    lang-gmbh-szb@t-online.de
+                  </p>
+
+                    <hr className="mt-4 border-[#333]" />
+
+                </div>
+            </div>
           </div>
 
           {/* Right Content (Map) */}
