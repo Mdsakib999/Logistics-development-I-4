@@ -43,7 +43,7 @@ export default function Navbar() {
       >
         <nav className="max-w-7xl mx-auto p-4 flex justify-between items-center">
           <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-[14px] sm:text-[16px]">
-            <span className="text-dark">schaeferei.schenk@t-online.de</span>
+            <span className="text-dark">info@intern-transport.de</span>
             {/* <span>+1 (555) 000-0000</span> */}
           </div>
           <button className="bg-yellow-400 text-black hover:bg-gray-900 hover:text-yellow-500 duration-300 px-5 py-2 rounded-md">
@@ -56,7 +56,7 @@ export default function Navbar() {
       <div className="bg-black relative z-50">
         <nav className="max-w-7xl mx-auto text-white p-4 -mt-1 flex justify-between items-center h-[94px] relative">
           {/* Logo */}
-          <div className="text-xl font-semibold">
+          <div className="text-xl font-semibold text-yellow-400 hover:text-yellow-500">
             <Link to="/">Intern. Transporte</Link>
           </div>
           {/* Desktop nav */}

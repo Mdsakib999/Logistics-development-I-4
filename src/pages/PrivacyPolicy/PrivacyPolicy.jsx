@@ -42,8 +42,8 @@ const PrivacyPolicy = () => {
 					</a> */}
           <br />
           <strong>E-Mail: </strong>
-          <a href="mailto:schaeferei.schenk@t-online.de" className="">
-            schaeferei.schenk@t-online.de
+          <a href="mailto:info@intern-transport.de" className="">
+            info@intern-transport.de
           </a>
         </p>
 
@@ -92,8 +92,8 @@ const PrivacyPolicy = () => {
 					</a> */}
           <br />
           <strong>E-Mail: </strong>
-          <a href="mailto:schaeferei.schenk@t-online.de" className="">
-            schaeferei.schenk@t-online.de
+          <a href="mailto:info@intern-transport.de" className="">
+            info@intern-transport.de
           </a>
           <br />
         </p>

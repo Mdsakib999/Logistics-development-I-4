@@ -28,6 +28,9 @@ export default function Footer() {
             <li>
               <Link to="/services">Dienstleistungen</Link>
             </li>
+            <li className="hover:text-white cursor-pointer transition">
+              <Link to="/privacy-policy">Impressum</Link>
+            </li>
             <li>
               <Link to="/contact">Kontakt</Link>
             </li>
@@ -44,9 +47,7 @@ export default function Footer() {
             <li className="hover:text-white cursor-pointer transition">
               Kundendienst
             </li>
-            <li className="hover:text-white cursor-pointer transition">
-              <Link to="/privacy-policy">Datenschutzrichtlinie</Link>
-            </li>
+
             <li className="hover:text-white cursor-pointer transition">
               Bedingungen & Support
             </li>
